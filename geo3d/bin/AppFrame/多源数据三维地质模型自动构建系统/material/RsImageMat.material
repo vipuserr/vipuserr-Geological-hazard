@@ -1,0 +1,37 @@
+
+TraditionalMat yingxiang.tif
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		yingxiang.tif
+	}
+	TextureAddressMode
+	{
+		1
+		CLAMP
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}

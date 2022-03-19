@@ -1,0 +1,109 @@
+#pragma once
+
+#include "s3d_KerAuxDef.h"
+
+
+#include <osgVolume/Property>
+namespace osgVolume {
+
+	
+class CutFuncProperty;
+class AnyCutFuncProperty;
+
+class OG_FRAME_DLL CutPropertyVisitor : public PropertyVisitor
+{
+    public:
+
+        CutPropertyVisitor(bool traverseOnlyActiveChildren=true);
+
+		virtual void apply(CutFuncProperty&);
+		virtual void apply(AnyCutFuncProperty&);
+};
+
+class OG_FRAME_DLL CutFuncProperty : public ScalarProperty
+{
+    public:
+
+        CutFuncProperty(float value=0.0);
+
+        CutFuncProperty(const CutFuncProperty& isp,const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY);
+
+        META_Object(osgVolume, CutFuncProperty);
+
+        virtual void accept(PropertyVisitor& pv) { pv.apply(*this); }
+
+		void setCutValue(bool cutBox, float cutXFront, float cutXBack, float cutYFront, float cutYBack, float cutZFront, float cutZBack );
+		void getCutValue(bool &cutBox, float &cutXFront, float &cutXBack, float &cutYFront, float &cutYBack, float &cutZFront, float &cutZBack );
+  
+	protected:
+
+        virtual ~CutFuncProperty() {}
+		bool _cutBox;
+		float _cutXFront;
+		float _cutXBack;
+		float _cutYFront;
+		float _cutYBack;
+		float _cutZFront;
+		float _cutZBack;
+};
+
+class OG_FRAME_DLL AnyCutFuncProperty : public ScalarProperty
+{
+    public:
+
+        AnyCutFuncProperty(float value=1.0);
+
+        AnyCutFuncProperty(const AnyCutFuncProperty& isp,const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY);
+
+        META_Object(osgVolume, AnyCutFuncProperty);
+
+        virtual void accept(PropertyVisitor& pv) { pv.apply(*this); }
+
+		void setCutValue(bool cutDirect, float xRatio, float yRatio, float zRatio, float dValue);
+		void getCutValue(bool &cutDirect, float &xRatio, float &yRatio, float &zRatio, float &dValue);
+  
+	protected:
+
+        virtual ~AnyCutFuncProperty() {}
+		bool _cutDirect;
+		float _xRatio;
+		float _yRatio;
+		float _zRatio;
+		float _dValue;
+};
+
+
+class OG_FRAME_DLL CutCollectPropertiesVisitor : public osgVolume::CollectPropertiesVisitor
+{
+    public:
+		
+        CutCollectPropertiesVisitor(bool traverseOnlyActiveChildren=true);
+		
+		virtual void apply(CutFuncProperty& cut);
+		virtual void apply(AnyCutFuncProperty& anycut);
+		
+		osg::ref_ptr<CutFuncProperty>						_cutProperty;
+		osg::ref_ptr<AnyCutFuncProperty>					_anycutProperty;
+};
+
+
+class OG_FRAME_DLL CutPropertyAdjustmentCallback : public PropertyAdjustmentCallback
+{
+    public:
+        CutPropertyAdjustmentCallback();
+
+        CutPropertyAdjustmentCallback(const CutPropertyAdjustmentCallback&,const osg::CopyOp&);
+
+		
+        //virtual NodeCallback* asNodeCallback() { return osg::NodeCallback::asNodeCallback(); }
+        //virtual const NodeCallback* asNodeCallback() const { return osg::NodeCallback::asNodeCallback(); }
+
+        //virtual DrawableEventCallback* asDrawableEventCallback() { return osg::DrawableEventCallback::asDrawableEventCallback(); }
+        //virtual const DrawableEventCallback* asDrawableEventCallback() const { return osg::DrawableEventCallback::asDrawableEventCallback(); }
+
+        //virtual osgGA::EventHandler* asEventHandler() { return osgGA::EventHandler::asEventHandler(); }
+        //virtual const osgGA::EventHandler* asEventHandler() const { return osgGA::EventHandler::asEventHandler(); }
+
+};
+
+}

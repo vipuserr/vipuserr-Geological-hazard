@@ -1,0 +1,65 @@
+#ifndef OSGTEXT_MULTITEXT
+#define OSGTEXT_MULTITEXT 1
+
+#include <osgText/Text>
+#include <vector>
+
+#include "s3d_KerAuxDef.h"
+
+namespace osgText {
+
+class OG_FRAME_DLL MultiText : public osgText::Text
+{
+public:
+	enum TextType
+	{
+		TT_NORMAL = 0,
+		TT_UP = 1,
+		TT_DOWN = 2
+	};
+
+	struct TextNote
+	{
+		TextType type;
+		String text;
+		float height;
+		TextNote & operator=(const TextNote &n)
+		{
+			type = n.type;
+			text = n.text;
+			height = n.height;
+
+			return *this;
+		}
+	};
+
+public:
+	MultiText(void);
+	MultiText::MultiText(const MultiText& text,const osg::CopyOp& copyop);
+
+	virtual osg::Object* cloneType() const { return new MultiText(); }
+	virtual osg::Object* clone(const osg::CopyOp& copyop) const { return new MultiText(*this,copyop); }
+	virtual bool isSameKindAs(const osg::Object* obj) const { return dynamic_cast<const MultiText*>(obj)!=NULL; }
+	virtual const char* className() const { return "MultiText"; }
+	virtual const char* libraryName() const { return "osgText"; }
+
+	void setUpDownTextOffsetPercent(float upOffsetPercent, float downOffsetPercent);
+	void setTextList(std::vector<TextNote>& textList);
+
+
+protected:
+	~MultiText(void);
+
+protected:
+	void computeGlyphRepresentation();
+	//virtual void computePositions(unsigned int contextID) const;
+	
+protected:
+	std::vector<TextNote> _textList;
+	float _upOffsetPercent;
+	float _downOffsetPercent;
+};
+
+}
+
+#endif

@@ -1,0 +1,26 @@
+<RootContainer Type="{90FC801B-47FA-4017-8DA3-CD841BBE474A}" Name="根容器" DispName="二维图层" Visible="true" Selected="false" XScale="1" YScale="1" ZScale="1">
+    <Children>
+        <Container GisFileName="D:/data/xiamen/厦门数据-出差/地质图/马銮湾地质图.qgz" Type="{62B046D8-6323-437E-B9EE-42CC1CB5AAC4}" Name="QGIS工程0" DispName="地理底图" Visible="false" Selected="false" XScale="1" YScale="1" ZScale="1">
+            <Children />
+            <Elements>
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/规划标注.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="规划标注::11::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/规划标注.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/修测地质代号.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="修测地质代号::12::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/修测地质代号.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/剖面用钻孔.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="剖面用钻孔::13::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/剖面用钻孔.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/剖面点.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="剖面点::14::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/剖面点.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/地块分隔线.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="地块分隔线::15::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/地块分隔线.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/剖面线.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="剖面线::16::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/剖面线.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/修测断裂构造.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="修测断裂构造::17::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/修测断裂构造.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/断层编号.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="断层编号::18::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/断层编号.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/修测地质界线.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="修测地质界线::19::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/修测地质界线.SHP" Selected="true" />
+                <Element ShpFileName="D:/data/xiamen/厦门数据-出差/地质图/修测地质区.SHP" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="修测地质区::20::07/15/2023:54:43" DispName="D:/data/xiamen/厦门数据-出差/地质图/修测地质区.SHP" Selected="true" />
+            </Elements>
+        </Container>
+    </Children>
+    <Elements>
+        <Element HOLE_DOTS_SQL="select * from DKSJ" Type="{FD974326-2865-47C3-9175-8865055AF53C}" Name="钻孔图层10" DispName="钻孔" Selected="true" />
+        <Element ImgFileName="D:/data/xiamen/厦门数据-出差/影像/马銮湾影像.tif" Type="{B5EC90D7-8A2B-437A-9114-17C8A4C501DE}" Name="影像文件11" DispName="影像文件11" Selected="true" />
+        <Element ShpFileName="" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="矢量文件12" DispName="矢量文件12" Selected="true" />
+        <Element ShpFileName="" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="矢量文件13" DispName="矢量文件13" Selected="true" />
+        <Element ShpFileName="" Type="{0392A583-DD84-4A4C-A778-036BD22562E5}" Name="矢量文件14" DispName="矢量文件14" Selected="true" />
+    </Elements>
+</RootContainer>

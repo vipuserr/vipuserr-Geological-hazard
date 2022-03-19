@@ -1,0 +1,97 @@
+/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+ *
+ * This library is open source and may be redistributed and/or modified under
+ * the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+ * (at your option) any later version.  The full license is in LICENSE file
+ * included with this distribution, and on the openscenegraph.org website.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * OpenSceneGraph Public License for more details.
+*/
+
+#ifndef OSGSIM_COLORBAR
+#define OSGSIM_COLORBAR 1
+
+
+
+#include <vector>
+#include <map>
+#include <osg/Vec4>
+#include <osg/Node>
+#include <osgSim/ColorRange>
+
+#include "s3d_KerAuxDef.h"
+
+
+namespace osgSim
+{
+/**
+ColorTable is a ScalarsToColors object to define a color spectrum
+for a scalar range. An optional vector of colors may be passed in at
+construction time. The range of colors will be mapped to the scalar range,
+and interpolation between the colors will be performed as necessary.
+By default, the color range will run Red-Yellow-Green-Cyan-Blue.
+*/
+class OG_FRAME_DLL ColorTable: public osgSim::ColorRange
+{
+public:
+
+	typedef std::map<float, osg::Vec4> ColorMap;
+
+    /** Constructor for a ColorRange with a default list of colors set to Red-Yellow-Green-Blue-Cyan
+    @param min      minimum scalar value
+    @param max      maximum scalar value
+    */
+    ColorTable(float min, float max);
+
+    /** Constructor for a ColorRange
+    @param min      minimum scalar value
+    @param max      maximum scalar value
+    @param newColours   ColorMap of colors,
+    */
+    ColorTable(float min, float max, const ColorMap& newColours);
+
+    /** Set the ColorMap of colors. */
+    void setColors(const ColorMap& newColours);
+
+	/** Get the color map that stores the mapping between the the transfer function value and the colour it maps to.*/
+	ColorMap& getColorMap() { return _colorMap; }
+
+	/** Get the const color map that stores the mapping between the the transfer function value and the colour it maps to.*/
+	const ColorMap& getColorMap() const { return _colorMap; }
+
+    /** Get the color for a given scalar value. */
+    osg::Vec4 getColor(float scalar) const;
+
+private:
+	ColorMap _colorMap;
+};
+
+/**
+CColorBar is to create ScalarBar and show the color
+*/
+class OG_FRAME_DLL CColorBar
+{
+public:
+	CColorBar(float min, float max);
+	~CColorBar(void);
+
+public:
+	//创建色表图例
+	//活动
+	osg::Node* createScalarBar(const ColorTable::ColorMap& newColours);
+	//固定
+	osg::Node* createScalarBar_HUD(const ColorTable::ColorMap& newColours);
+
+private:
+	float _min;
+	float _max;
+	//ColorTable* cr;
+	osg::ref_ptr<osgSim::ColorTable> cr;
+};
+
+}
+
+#endif

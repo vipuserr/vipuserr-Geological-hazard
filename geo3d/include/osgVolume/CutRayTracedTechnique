@@ -1,0 +1,29 @@
+#pragma once
+
+#include "s3d_KerAuxDef.h"
+
+
+#include <osgVolume/RayTracedTechnique>
+
+namespace osgVolume {
+
+class OG_FRAME_DLL CutRayTracedTechnique : public RayTracedTechnique
+{
+    public:
+
+        CutRayTracedTechnique();
+
+        CutRayTracedTechnique(const CutRayTracedTechnique&,const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY);
+		
+        META_Object(osgVolume, CutRayTracedTechnique);
+		
+        virtual void init();
+
+    protected:
+
+        virtual ~CutRayTracedTechnique();
+
+};
+
+}
+

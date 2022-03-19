@@ -1,0 +1,160 @@
+<Resource ResCode="res:2020:01:04:18:38:13:720" SystemName="多源数据三维地质模型自动构建系统" SystemPath="" SystemIconFile="appIcon.png" SystemSlashImageFile="appSplash.bmp" DataTreePath="" GmeDataBasePath="D:/data/gme/smart3dProject-xmhb/dataSource/db/gme_xm-test.db" AccessDataBasePath="D:/data/gme/smart3dProject-xmhb/dataSource/db/xm-mlw1219.mdb" ImagePath="" TempPath="" SymbolPath="C:/mapgis67/Slib" ShortCutName="" ToolLinRadius="5.0" ToolLinClr="0" ToolLinWidth="1" ToolRegClr="16733440" ToolPntRadius="100.0" ProjectedFile="D:/Download/xiamen/smart3dProject-1226/dataSource/baseMap/xm1229.osgb" GeocentricFile="D:/Download/海南/smart3dProject0106-gongcheng/dataSource/baseMap/world.tif" RoamingMapFile="D:/Datasourse/厦门/smart3dProject1223/dataSource/baseMap/xm-yingxiang.tif" RotatingTrendSwitch="false">
+    <MenuBar ResCode="menuBar:2020:01:04:18:38:13:720" ResName="菜单栏" ControlType="MenuBar" Mode="" ImageFileType="">
+        <Item ResCode="menuView:2020:01:04:18:38:13:720" ResName="默认菜单栏" ControlType="QMenuView" BindView="ViewName1">
+            <Item ResCode="工程管理插件:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QMenu" HotKey="" ResName="工程(&amp;P)">
+                <Item ResCode="新建工程:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QAction" FuncName="新建工程" HotKey="" PlugName="二维系统功能插件" ResName="新建工程(&amp;Ctrl+N)" />
+                <Item ResCode="打开工程:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QAction" FuncName="打开工程" HotKey="" PlugName="二维系统功能插件" ResName="打开工程(&amp;Ctrl+O)" />
+                <Item ResCode="关闭工程:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QAction" FuncName="关闭工程" HotKey="" PlugName="二维系统功能插件" ResName="关闭工程(&amp;Ctrl+X)" />
+                <Item ResCode="保存工程:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QAction" FuncName="保存工程" HotKey="" PlugName="二维系统功能插件" ResName="保存工程(&amp;Ctrl+S)" />
+                <Item ResCode="----:2020:09:01:16:21:10:956" ControlType="Spliter" ResName="----" />
+                <Item ResCode="工程属性:2020:08:12:19:20:20:997" BmpFileName="" ControlType="QAction" FuncName="工程属性" HotKey="" PlugName="二维系统功能插件" ResName="工程属性(&amp;Ctrl+A)" />
+                <Item ResCode="----:2020:09:01:16:20:42:756" ControlType="Spliter" ResName="----" />
+                <Item ResCode="退出工程:2020:09:01:14:55:23:435" BmpFileName="" ControlType="QAction" FuncName="退出" HotKey="" PlugName="二维系统功能插件" ResName="退出工程(&amp;Ctrl+E)" />
+            </Item>
+            <Item ResCode="数据处理():2020:09:01:14:55:51:539" BmpFileName="" ControlType="QMenu" HotKey="" ResName="数据处理(&amp;D)">
+                <Item ResCode="钻孔数据检查:2020:09:01:14:57:41:812" BmpFileName="" ControlType="QAction" FuncName="剖面图数据检查" HotKey="" PlugName="地质数据管理插件" ResName="剖面数据检查(&amp;J)" />
+                <Item ResCode="钻孔数据检查:2020:09:01:14:58:21:933" BmpFileName="" ControlType="QAction" FuncName="地质图数据检查" HotKey="" PlugName="地质数据管理插件" ResName="地质图数据检查(&amp;R)" />
+                <Item ResCode="----:2020:09:01:16:21:27:684" ControlType="Spliter" ResName="----" />
+                <Item ResCode="工勘数据导入:2020:09:01:14:58:53:795" BmpFileName="" ControlType="QAction" FuncName="工勘数据导入" HotKey="" PlugName="二维系统功能插件" ResName="工勘数据导入(&amp;K)" />
+                <Item ResCode="----:2020:09:01:16:21:32:069" ControlType="Spliter" ResName="----" />
+                <Item ResCode="新标准地层编辑:2021:04:19:09:10:06:314" BmpFileName="" ControlType="QAction" FuncName="标准地层编辑" HotKey="" PlugName="二维系统功能插件" ResName="表格版标准地层编辑" />
+                <Item ResCode="数据信息表配置:2020:09:01:14:59:03:268" BmpFileName="" ControlType="QAction" FuncName="数据字典配置" HotKey="" PlugName="二维系统功能插件" ResName="钻孔数据库字典配置(&amp;I)" />
+                <Item ResCode="生成标准数据库:2020:09:01:16:18:07:030" BmpFileName="" ControlType="QAction" FuncName="生成标准数据库" HotKey="" PlugName="二维系统功能插件" ResName="生成标准数据库(&amp;O)" />
+                <Item ResCode="钻孔数据库检查:2020:10:21:17:06:52:199" BmpFileName="" ControlType="QAction" FuncName="钻孔数据检查" HotKey="" PlugName="地质数据管理插件" ResName="钻孔数据库检查" />
+                <Item ResCode="剖面图转虚拟钻孔:2020:11:20:10:40:54:173" BmpFileName="" ControlType="QAction" FuncName="剖面图转虚拟钻孔" HotKey="" PlugName="二维系统功能插件" ResName="剖面图转虚拟钻孔" />
+                <Item ResCode="水文钻孔数据增加隔水层:2021:01:16:10:53:54:954" BmpFileName="" ControlType="QAction" FuncName="水文钻孔数据增加隔水层" HotKey="" PlugName="地质数据管理插件" ResName="水文钻孔数据增加隔水层" />
+                <Item ResCode="生成DEM栅格数据:2021:01:20:17:30:49:104" BmpFileName="" ControlType="QAction" FuncName="生成DEM栅格数据" HotKey="" PlugName="三维建模与分析插件" ResName="生成DEM栅格数据" />
+                <Item ResCode="地层级别编码转化:2021:01:21:11:40:17:203" BmpFileName="" ControlType="QAction" FuncName="地层级别编码转化" HotKey="" PlugName="二维系统功能插件" ResName="地层级别编码转化" />
+                <Item ResCode="mapgis工程文件转qgis文件:2021:06:24:18:05:23:304" BmpFileName="" ControlType="QAction" FuncName="mapgis工程文件转qgis文件" HotKey="" PlugName="二维系统功能插件" ResName="mapgis工程文件转qgis文件" />
+                <Item ResCode="mapgis图层文件转shp文件:2021:06:24:18:05:25:070" BmpFileName="" ControlType="QAction" FuncName="mapgis图层文件转shp文件" HotKey="" PlugName="二维系统功能插件" ResName="mapgis图层文件转shp文件" />
+                <Item ResCode="三维模型检查修复:2021:11:09:21:17:38:724" BmpFileName="" ControlType="QAction" FuncName="三维模型检查修复" HotKey="" PlugName="三维建模与分析插件" ResName="三维模型检查修复" />
+                <Item ResCode="数据导入导出类:2021:12:06:10:57:22:411" BmpFileName="" ControlType="QAction" FuncName="数据导入导出类" HotKey="" PlugName="地质数据管理插件" ResName="数据导入导出类" />
+                <Item ResCode="钻孔数据入库:2021:12:06:10:58:00:643" BmpFileName="" ControlType="QAction" FuncName="钻孔数据入库" HotKey="" PlugName="二维系统功能插件" ResName="钻孔数据入库" />
+                <Item ResCode="shp按色号属性赋色:2022:01:16:10:24:56:662" BmpFileName="" ControlType="QAction" FuncName="shp按色号属性赋色" HotKey="" PlugName="二维系统功能插件" ResName="shp按色号属性赋色" />
+                <Item ResCode="obj模型坐标变换:2022:02:14:21:28:02:038" BmpFileName="" ControlType="QAction" FuncName="obj模型坐标变换" HotKey="" PlugName="三维建模与分析插件" ResName="obj模型坐标变换" />
+            </Item>
+            <Item ResCode="查询统计:2021:04:19:09:07:42:095" BmpFileName="" ControlType="QMenu" HotKey="" ResName="查询统计(&amp;K)">
+                <Item ResCode="钻孔信息查询:2021:04:19:09:08:29:570" BmpFileName="" ControlType="QAction" FuncName="钻孔信息查询" HotKey="" PlugName="二维系统功能插件" ResName="钻孔信息查询" />
+                <Item ResCode="图层裁剪输出:2021:04:19:09:09:22:050" BmpFileName="" ControlType="QAction" FuncName="图层裁剪输出" HotKey="" PlugName="地质数据管理插件" ResName="图层裁剪输出" />
+                <Item ResCode="模型文件导入:2021:04:19:09:09:24:851" BmpFileName="" ControlType="QAction" FuncName="模型文件导入" HotKey="" PlugName="地质数据管理插件" ResName="模型文件导入" />
+                <Item ResCode="数据库模型管理:2021:04:19:09:09:27:730" BmpFileName="" ControlType="QAction" FuncName="数据库模型管理" HotKey="" PlugName="地质数据管理插件" ResName="数据库模型管理" />
+                <Item ResCode="指标统计:2021:04:23:11:44:30:292" BmpFileName="" ControlType="QAction" FuncName="指标统计" HotKey="" PlugName="二维系统功能插件" ResName="力学指标统计" />
+                <Item ResCode="岩性统计:2021:05:19:16:00:56:655" BmpFileName="" ControlType="QAction" FuncName="岩性统计" HotKey="" PlugName="二维系统功能插件" ResName="岩性统计" />
+                <Item ResCode="倾斜摄影数据加载:2021:12:04:15:45:58:510" BmpFileName="" ControlType="QAction" FuncName="倾斜摄影数据加载" HotKey="" PlugName="三维建模与分析插件" ResName="倾斜摄影数据加载" />
+            </Item>
+            <Item ResCode="视图(&amp;V):2020:01:05:19:29:39:522" BmpFileName="" ControlType="QMenu" HotKey="" ResName="视图(&amp;V)">
+                <Item ResCode="放大(&amp;+):2020:01:05:19:30:13:290" BmpFileName="3" ControlType="QAction" FuncName="二维放大" HotKey="" PlugName="二维系统功能插件" ResName="放大(&amp;+)" />
+                <Item ResCode="缩小(&amp;-):2020:01:05:19:30:30:715" BmpFileName="4" ControlType="QAction" FuncName="二维缩小" HotKey="" PlugName="二维系统功能插件" ResName="缩小(&amp;-)" />
+                <Item ResCode="复位(&amp;R):2020:01:05:19:30:41:251" BmpFileName="5" ControlType="QAction" FuncName="二维复位" HotKey="" PlugName="二维系统功能插件" ResName="复位(&amp;Ctrl+B)" />
+                <Item ResCode="更新(&amp;U):2020:01:05:19:30:51:058" BmpFileName="6" ControlType="QAction" FuncName="二维更新" HotKey="" PlugName="二维系统功能插件" ResName="更新(&amp;Ctrl+U)" />
+                <Item ResCode="移动(&amp;M):2020:01:05:19:31:12:378" BmpFileName="7" ControlType="QAction" FuncName="二维平移" HotKey="" PlugName="二维系统功能插件" ResName="移动(&amp;Ctrl+M)" />
+                <Item ResCode="参数设置:2020:12:23:14:17:24:505" BmpFileName="" ControlType="QAction" FuncName="二维交互工具参数设置" HotKey="" PlugName="二维系统功能插件" ResName="交互工具参数设置" />
+            </Item>
+            <Item ResCode="图件制作:2020:09:01:16:16:46:493" BmpFileName="" ControlType="QMenu" HotKey="" ResName="图件制作(&amp;S)">
+                <Item ResCode="剖面图生成:2020:09:01:16:17:28:861" BmpFileName="" ControlType="QAction" FuncName="生成钻孔剖面图" HotKey="" PlugName="地质图件生成与处理插件" ResName="生成剖面图(&amp;F3)" />
+                <Item ResCode="生成一个地层的平面分区图:2020:11:14:16:23:49:533" BmpFileName="" ControlType="QAction" FuncName="生成一个地层的平面分区图" HotKey="" PlugName="地质图件生成与处理插件" ResName="生成地层平面分区图" />
+                <Item ResCode="生成任意深度的地层分区图:2020:11:15:18:49:12:475" BmpFileName="" ControlType="QAction" FuncName="生成任意深度或高程的地质图" HotKey="" PlugName="地质图件生成与处理插件" ResName="生成任意深度的地质图" />
+                <Item ResCode="钻孔地层等值线:2021:01:19:19:28:27:340" BmpFileName="" ControlType="QAction" FuncName="生成等值线图" HotKey="" PlugName="地质图件生成与处理插件" ResName="钻孔地层等值线" />
+                <Item ResCode="场景输出:2021:03:31:16:16:18:033" BmpFileName="" ControlType="QAction" FuncName="场景输出" HotKey="" PlugName="三维建模与分析插件" ResName="场景输出" />
+                <Item ResCode="生成钻孔柱状图:2021:09:14:21:21:01:451" BmpFileName="" ControlType="QAction" FuncName="生成钻孔柱状图" HotKey="" PlugName="地质图件生成与处理插件" ResName="生成钻孔柱状图" />
+                <Item ResCode="柱状图编辑器:2021:09:29:14:59:35:265" BmpFileName="" ControlType="QAction" FuncName="柱状图编辑器" HotKey="" PlugName="地质图件生成与处理插件" ResName="柱状图编辑器" />
+            </Item>
+            <Item ResCode="三维建模:2020:01:05:19:34:04:619" BmpFileName="" ControlType="QMenu" HotKey="" ResName="三维地质建模(&amp;G)">
+                <Item ResCode="钻孔(&amp;H):2020:01:05:19:34:31:802" BmpFileName="21" ControlType="QAction" FuncName="钻孔三维建模" HotKey="" PlugName="三维建模与分析插件" ResName="钻孔建模(&amp;H)" />
+                <Item ResCode="地形建模:2021:10:18:11:32:37:596" BmpFileName="" ControlType="QAction" FuncName="多尺度DEM建模" HotKey="" PlugName="三维建模与分析插件" ResName="地形建模" />
+                <Item ResCode="地层建模_新(&amp;N):2020:03:25:15:24:32:647" BmpFileName="" ControlType="QAction" FuncName="多源三维地质结构建模" HotKey="" PlugName="三维建模与分析插件" ResName="地质结构建模(&amp;N)" />
+                <Item ResCode="属性场建模:2021:01:25:18:30:00:639" BmpFileName="" ControlType="QAction" FuncName="三维地质属性建模" HotKey="" PlugName="三维建模与分析插件" ResName="属性场建模" />
+                <Item ResCode="----:2020:09:01:16:30:39:973" ControlType="Spliter" ResName="----" />
+                <Item ResCode="断层建模:2020:07:13:09:19:42:396" BmpFileName="" ControlType="QAction" FuncName="断层建模" HotKey="" PlugName="三维建模与分析插件" ResName="断层建模(&amp;W)" />
+                <Item ResCode="构建地质图三维模型:2021:09:20:18:37:59:639" BmpFileName="" ControlType="QAction" FuncName="构建地质图三维模型" HotKey="" PlugName="三维建模与分析插件" ResName="地质图建模" />
+                <Item ResCode="----:2020:09:01:16:30:59:733" ControlType="Spliter" ResName="----" />
+                <Item ResCode="地上下建筑物建模:2021:03:29:16:31:13:495" BmpFileName="" ControlType="QAction" FuncName="地上建筑物建模" HotKey="" PlugName="三维建模与分析插件" ResName="地上下建筑物建模" />
+                <Item ResCode="桩基建模:2021:03:29:16:31:12:183" BmpFileName="" ControlType="QAction" FuncName="桩基建模" HotKey="" PlugName="三维建模与分析插件" ResName="桩基建模" />
+                <Item ResCode="锚杆建模:2020:12:22:09:41:23:850" BmpFileName="" ControlType="QAction" FuncName="锚杆建模" HotKey="" PlugName="三维建模与分析插件" ResName="锚杆建模" />
+                <Item ResCode="咸水体建模:2021:03:03:15:41:04:578" BmpFileName="" ControlType="QAction" FuncName="咸水体建模" HotKey="" PlugName="三维建模与分析插件" ResName="咸水体建模" />
+            </Item>
+            <Item ResCode="可视化(可视化):2020:01:08:19:41:44:494" BmpFileName="" ControlType="QMenu" HotKey="" ResName="可视化分析(V)">
+                <Item ResCode="模型切割:2020:09:01:15:04:24:819" BmpFileName="" ControlType="QAction" FuncName="三维模型切割分析" HotKey="" PlugName="三维建模与分析插件" ResName="模型切割(&amp;F6)" />
+                <Item ResCode="爆炸分析:2020:12:23:09:31:35:005" BmpFileName="" ControlType="QAction" FuncName="爆炸分析" HotKey="" PlugName="三维建模与分析插件" ResName="爆炸分析" />
+                <Item ResCode="----:2020:09:01:16:31:11:133" ControlType="Spliter" ResName="----" />
+                <Item ResCode="钻孔分层信息查询:2020:11:24:17:17:07:476" BmpFileName="" ControlType="QAction" FuncName="钻孔分层拾取" HotKey="" PlugName="三维建模与分析插件" ResName="拾取钻孔分层" />
+                <Item ResCode="滑动设置比例:2021:03:05:14:16:24:144" BmpFileName="" ControlType="QAction" FuncName="输入方式设置比例" HotKey="" PlugName="三维建模与分析插件" ResName="模型比例设置" />
+                <Item ResCode="----:2021:09:02:14:11:09:178" ControlType="Spliter" ResName="----" />
+                <Item ResCode="平面切割:2021:09:02:14:11:13:235" BmpFileName="" ControlType="QAction" FuncName="平面切割" HotKey="" PlugName="三维建模与分析插件" ResName="平面切割" />
+                <Item ResCode="折线切割:2021:09:02:14:11:14:847" BmpFileName="" ControlType="QAction" FuncName="折线切割" HotKey="" PlugName="三维建模与分析插件" ResName="折线切割" />
+                <Item ResCode="任意平面切割:2021:09:02:14:11:16:114" BmpFileName="" ControlType="QAction" FuncName="任意平面切割" HotKey="" PlugName="三维建模与分析插件" ResName="任意平面切割" />
+                <Item ResCode="基坑开挖:2021:09:02:14:11:17:376" BmpFileName="" ControlType="QAction" FuncName="基坑开挖" HotKey="" PlugName="三维建模与分析插件" ResName="基坑开挖" />
+                <Item ResCode="隧道模拟:2021:09:02:14:11:18:794" BmpFileName="" ControlType="QAction" FuncName="隧道模拟" HotKey="" PlugName="三维建模与分析插件" ResName="隧道模拟" />
+                <Item ResCode="创建虚拟钻孔:2021:09:02:14:11:20:108" BmpFileName="" ControlType="QAction" FuncName="创建虚拟钻孔" HotKey="" PlugName="三维建模与分析插件" ResName="创建虚拟钻孔" />
+                <Item ResCode="模型评价:2021:11:01:13:38:28:619" BmpFileName="" ControlType="QAction" FuncName="模型评价" HotKey="" PlugName="三维建模与分析插件" ResName="模型评价" />
+                <Item ResCode="模型可信度验证:2021:11:15:15:35:45:198" BmpFileName="" ControlType="QAction" FuncName="模型可信度验证" HotKey="" PlugName="三维建模与分析插件" ResName="模型可信度验证" />
+                <Item ResCode="场景漫游:2021:11:22:20:16:01:314" BmpFileName="" ControlType="QAction" FuncName="场景漫游" HotKey="" PlugName="三维建模与分析插件" ResName="场景漫游" />
+                <Item ResCode="动态剖切:2022:03:10:16:49:23:238" BmpFileName="" ControlType="QAction" FuncName="动态剖切" HotKey="" PlugName="三维建模与分析插件" ResName="动态剖切" />
+            </Item>
+            <Item ResCode="地下空间开发辅助决策分析:2021:12:10:09:34:43:411" BmpFileName="" ControlType="QMenu" HotKey="" ResName="地下空间开发辅助决策分析">
+                <Item ResCode="钻孔分层拾取:2021:12:10:09:34:53:180" BmpFileName="" ControlType="QAction" FuncName="钻孔分层拾取" HotKey="" PlugName="三维建模与分析插件" ResName="钻孔分层拾取" />
+                <Item ResCode="爆炸分析:2021:12:10:09:35:17:140" BmpFileName="" ControlType="QAction" FuncName="爆炸分析" HotKey="" PlugName="三维建模与分析插件" ResName="爆炸分析" />
+                <Item ResCode="缓冲分析:2021:12:10:09:35:31:064" BmpFileName="" ControlType="QAction" FuncName="缓冲分析" HotKey="" PlugName="三维建模与分析插件" ResName="缓冲分析" />
+                <Item ResCode="三维模型切割分析:2021:12:10:09:35:51:387" BmpFileName="" ControlType="QAction" FuncName="三维模型切割分析" HotKey="" PlugName="三维建模与分析插件" ResName="三维模型切割分析" />
+                <Item ResCode="岩性统计:2021:12:10:09:36:51:000" BmpFileName="" ControlType="QAction" FuncName="岩性统计" HotKey="" PlugName="二维系统功能插件" ResName="岩性统计" />
+                <Item ResCode="模型评价:2021:12:10:09:37:30:348" BmpFileName="" ControlType="QAction" FuncName="模型评价" HotKey="" PlugName="三维建模与分析插件" ResName="模型评价" />
+                <Item ResCode="地下室碰撞分析:2021:12:10:09:37:59:970" BmpFileName="" ControlType="QAction" FuncName="地下室碰撞分析" HotKey="" PlugName="三维建模与分析插件" ResName="地下室碰撞分析" />
+            </Item>
+            <Item ResCode="设置(&amp;S):2020:01:05:19:35:11:634" BmpFileName="" ControlType="QMenu" HotKey="" ResName="设置(&amp;L)">
+                <Item ResCode="设置菜单(&amp;M):2020:01:05:19:35:30:034" BmpFileName="" ControlType="QAction" FuncName="系统界面配置" HotKey="" PlugName="二维系统功能插件" ResName="系统界面配置(&amp;F8)" />
+                <Item ResCode="风格管理器:2020:12:15:19:33:00:761" BmpFileName="" ControlType="QAction" FuncName="风格管理器" HotKey="" PlugName="二维系统功能插件" ResName="材质管理器" />
+                <Item ResCode="批量生成材质:2020:12:15:19:33:42:121" BmpFileName="" ControlType="QAction" FuncName="批量生成材质" HotKey="" PlugName="二维系统功能插件" ResName="批量生成材质" />
+                <Item ResCode="配置服务器:2021:08:11:10:53:38:173" BmpFileName="" ControlType="QAction" FuncName="配置服务器" HotKey="" PlugName="二维系统功能插件" ResName="配置服务器" />
+            </Item>
+            <Item ResCode="帮助(&amp;H):2020:01:05:19:35:56:891" BmpFileName="" ControlType="QMenu" HotKey="" ResName="帮助(&amp;F10)">
+                <Item ResCode="帮助(&amp;H):2020:01:05:19:36:11:619" BmpFileName="" ControlType="QAction" FuncName="" HotKey="" PlugName="" ResName="帮助(&amp;F11)" />
+                <Item ResCode="关于(&amp;A):2020:01:05:19:36:20:970" BmpFileName="" ControlType="QAction" FuncName="关于系统" HotKey="" PlugName="二维系统功能插件" ResName="关于(&amp;F12)" />
+            </Item>
+            <Item ResCode="开发测试插件:2021:09:03:09:37:24:999" BmpFileName="" ControlType="QMenu" HotKey="" ResName="开发测试插件">
+                <Item ResCode="测试:2021:09:03:09:37:24:999" BmpFileName="" ControlType="QAction" FuncName="测试" HotKey="" PlugName="开发测试插件" ResName="测试" />
+                <Item ResCode="新建数据库:2021:11:30:15:06:48:751" BmpFileName="" ControlType="QAction" FuncName="新建数据库" HotKey="" PlugName="铁四院功能插件" ResName="新建数据库" />
+                <Item ResCode="--数据导入--:2021:11:30:15:06:52:607" BmpFileName="" ControlType="QAction" FuncName="--数据导入--" HotKey="" PlugName="铁四院功能插件" ResName="--数据导入--" />
+                <Item ResCode="导入地质平面图:2021:11:30:15:06:56:287" BmpFileName="" ControlType="QAction" FuncName="导入地质平面图" HotKey="" PlugName="铁四院功能插件" ResName="导入地质平面图" />
+                <Item ResCode="导入遥感解译数据:2021:11:30:15:06:57:496" BmpFileName="" ControlType="QAction" FuncName="导入遥感解译数据" HotKey="" PlugName="铁四院功能插件" ResName="导入遥感解译数据" />
+                <Item ResCode="导入地质纵断面图:2021:11:30:15:06:58:815" BmpFileName="" ControlType="QAction" FuncName="导入地质纵断面图" HotKey="" PlugName="铁四院功能插件" ResName="导入地质纵断面图" />
+                <Item ResCode="测试:2022:01:18:16:42:21:269" BmpFileName="" ControlType="QAction" FuncName="测试" HotKey="" PlugName="地质图件生成与处理插件" ResName="测试" />
+                <Item ResCode="地灾数据库API测试:2022:03:16:20:51:43:629" BmpFileName="" ControlType="QAction" FuncName="地灾数据库API测试" HotKey="" PlugName="二维系统功能插件" ResName="地灾数据库API测试" />
+            </Item>
+        </Item>
+    </MenuBar>
+    <Toolbar ResCode="toolBar:2020:01:04:18:38:13:720" ResName="工具栏" ControlType="ToolBar" ImageFileType="">
+        <Item ResCode="toolBarView:2020:01:04:18:38:13:720" ResName="默认工具栏" ControlType="ToolBarView" BindView="ViewName1">
+            <Item ResCode="放大:2020:01:05:22:01:36:645" BmpFileName="3" ControlType="Button" FuncName="二维放大" HotKey="" PlugName="二维系统功能插件" ResName="放大" />
+            <Item ResCode="缩小:2020:01:05:22:01:44:757" BmpFileName="4" ControlType="Button" FuncName="二维缩小" HotKey="" PlugName="二维系统功能插件" ResName="缩小" />
+            <Item ResCode="复位:2020:01:05:22:01:49:525" BmpFileName="5" ControlType="Button" FuncName="二维复位" HotKey="" PlugName="二维系统功能插件" ResName="复位" />
+            <Item ResCode="更新:2020:01:05:22:01:53:572" BmpFileName="6" ControlType="Button" FuncName="二维更新" HotKey="" PlugName="二维系统功能插件" ResName="更新" />
+            <Item ResCode="移动:2020:01:05:22:01:59:989" BmpFileName="7" ControlType="Button" FuncName="二维平移" HotKey="" PlugName="二维系统功能插件" ResName="移动" />
+            <Item ResCode="拉宽:2020:01:05:22:02:04:933" BmpFileName="9" ControlType="Button" FuncName="点矩形工具" HotKey="" PlugName="二维交互插件" ResName="拉框" />
+            <Item ResCode="多边形:2020:01:05:22:02:19:981" BmpFileName="10" ControlType="Button" FuncName="多边形工具" HotKey="" PlugName="二维交互插件" ResName="多边形" />
+            <Item ResCode="线路:2020:01:05:22:02:32:725" BmpFileName="11" ControlType="Button" FuncName="线路工具" HotKey="" PlugName="二维交互插件" ResName="线路" />
+            <Item ResCode="点缓冲:2020:01:05:22:02:40:981" BmpFileName="12" ControlType="Button" FuncName="圆形工具" HotKey="" PlugName="二维交互插件" ResName="点缓冲" />
+            <Item ResCode="通用查询:2020:01:05:22:02:51:637" BmpFileName="13" ControlType="Button" FuncName="" HotKey="" PlugName="" ResName="通用查询" />
+            <Item ResCode="显示注记:2020:01:05:22:02:58:852" BmpFileName="14" ControlType="Button" FuncName="" HotKey="" PlugName="" ResName="显示注记" />
+            <Item ResCode="柱状图:2020:01:05:22:05:48:485" BmpFileName="21" ControlType="Button" FuncName="" HotKey="" PlugName="" ResName="柱状图" />
+            <Item ResCode="剖面图:2020:01:05:22:05:57:750" BmpFileName="22" ControlType="Button" FuncName="" HotKey="" PlugName="" ResName="剖面图" />
+            <Item ResCode="三维建模:2020:01:05:22:06:03:293" BmpFileName="15" ControlType="Button" FuncName="钻孔三维建模" HotKey="" PlugName="三维地质建模与分析插件" ResName="三维建模钻孔" />
+            <Item ResCode="三维建模地层:2020:01:05:22:06:21:629" BmpFileName="16" ControlType="Button" FuncName="自动三维地质建模" HotKey="" PlugName="三维地质建模与分析插件" ResName="三维建模地层" />
+            <Item ResCode="三维建模构筑物:2020:01:05:22:06:29:525" BmpFileName="17" ControlType="Button" FuncName="地上建筑物建模" HotKey="" PlugName="三维地质建模与分析插件" ResName="三维建模构筑物" />
+            <Item ResCode="连接数据库:2020:01:05:22:06:47:165" BmpFileName="20" ControlType="Button" FuncName="登录界面" HotKey="" PlugName="二维系统功能插件" ResName="连接数据库" />
+            <Item ResCode="保存数据库:2020:01:05:22:07:03:877" BmpFileName="1" ControlType="Button" FuncName="保存项目数据树" HotKey="" PlugName="二维系统功能插件" ResName="保存数据库" />
+        </Item>
+    </Toolbar>
+    <VIEW ResCode="view:2020:01:04:18:38:13:720" ResName="视图">
+        <Item ResCode="数据层:2022:03:16:20:51:45:319" PluginFile="S3dAppFacePlugin_DockWidget.ogm" ViewName="数据层" ViewType="LeftView" />
+        <Item ResCode="3D视图:2022:03:16:20:51:45:319" PluginFile="S3dAppFacePlugin_3DView.ogx" PluginType="3DView" ViewName="3D视图" ViewType="CenterView" />
+        <Item ResCode="地图视图:2022:03:16:20:51:45:320" PluginFile="S3dAppFacePlugin_2DMapView.ogx" PluginType="2DView" ViewName="地图视图" ViewType="CenterView" />
+        <Item ResCode="专题视图:2022:03:16:20:51:45:320" PluginFile="S3dAppFacePlugin_2DExtView.ogx" PluginType="2DView" ViewName="专题视图" ViewType="CenterView" />
+    </VIEW>
+    <StatusBar ResCode="statusBar:2020:01:04:18:38:13:720">
+        <Item ResCode="messageStatus:2020:01:08:19:19:50:982" ControlType="messageStatus" DefaultValue="基本操作" ResName="操作" />
+        <Item ResCode="CoordinateStatus:2020:01:08:19:19:50:982" ControlType="CoordinateStatus" DefaultValue="m" Parameter1="" Parameter2="" Parameter3="" ResName="坐标" />
+        <Item ResCode="Progress:2020:01:08:19:19:50:982" ControlType="Progress" DefaultValue="0" ResName="进度" />
+    </StatusBar>
+    <SystemAbout ResCode="about:2020:01:04:18:38:13:720" />
+    <PreLoad ResCode="pre:2020:01:04:18:38:13:720" />
+</Resource>

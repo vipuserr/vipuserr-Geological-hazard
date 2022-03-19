@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>S3dmSimpleLabelDialog</class>
+ <widget class="QDialog" name="S3dmSimpleLabelDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>252</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>单一注记</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_Apply">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>253</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CBox_Field">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>14</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Field">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>14</y>
+     <width>48</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示字段</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Size">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>42</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大小</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CBox_SizeUnit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>42</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Color">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>69</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Font">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>100</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字体</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CBox_OffsetUnit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>147</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Cancel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>253</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_WrapChar">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>192</y>
+     <width>48</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换行字符</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_WrapChar">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>192</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>10707215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Orientation">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>220</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>文字显示方向</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="CBox_Orientation">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>220</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_setOffset">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>131</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>偏移</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pButton_Color">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>69</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pButton_Font">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>100</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="dSBox_Size">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>42</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>160</y>
+     <width>72</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_Offset_x_2">
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="dSBox_Offset_y"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>132</y>
+     <width>72</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_Offset_x">
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="dSBox_Offset_x"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
