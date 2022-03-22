@@ -1,7 +1,4 @@
-#ifndef __S3D_DBTBLFLDDEF__
-#define __S3D_DBTBLFLDDEF__
-
-
+#pragma once
 #include "s3dAttDBEngine_exp.h"
 #include <string>
 #include <vector>
@@ -151,5 +148,3 @@ namespace Smart3dMap
 		std::vector<s3dDbMdlInfo> s3dMdlContainer;
 	};
 }
-
-#endif // ! __S3D_DBTBLFLDDEF__

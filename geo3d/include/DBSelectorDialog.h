@@ -16,6 +16,9 @@ namespace Smart3dMap {
 	public:
 		static bool GetDBConParam(DB_APP_TYPE appType, GME_LinkType& linkType, std::string& dbName, std::string& serverName, std::string& portNo, std::string& userName, std::string& password, int& sysDBId, bool onlySysDB = false);
 
+		//设置系统数据库按钮是否显示
+		void setSysDBBtnVisible(bool visi=false);
+
 	private:
 		DBSelectorDialog(DB_APP_TYPE appType, bool onlySysDB, QWidget* parent = nullptr);
 		~DBSelectorDialog();

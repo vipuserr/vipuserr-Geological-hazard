@@ -8,6 +8,24 @@
 
 namespace Smart3dMap
 {
+	// slpk文件的空间参考规则
+	enum SLPK_SR
+	{
+		WGS84_4326, // 全球地理经纬坐标
+		WGS84_3857, // 全球墨卡托投影坐标
+		BeiJing54_118d30m // 北京54，中央经线118度30分
+	};
+
+	/*!
+		\brief 坐标转换工具 -- 基类 -- 需要实现纯虚函数用于坐标变换
+
+		\log  -- LH.2022.03.02 15:21 commented.
+	*/ 
+	struct CS_transformation
+	{
+		virtual bool transform(gme_vector3d* points, size_t count) = 0;
+	};
+
 	template<class T>
 	struct TifDataTemplate
 	{
@@ -35,11 +53,23 @@ namespace Smart3dMap
 			\param slpk_path slpk文件存储路径(包含文件后缀“.slpk”)。
 			\param err_str 转换未成功时的错误信息。
 
-			\TODO
-				1. 目前gmeModel仅支持结构体模型、钻孔柱模型和三维剖面模型。
-				2. 将坐标转换工具作为参数传入。
+			\TODO 废弃，将用另一个重载版本
 		*/
 		static bool gmeModelToSLPK(const gmeModel* gme_model, const std::string &slpk_path, std::string *err_str = nullptr);
+		
+		/*!
+			\brief gmeModel转i3s(slpk)接口
+
+			\param gme_model 模型
+			\param slpk_path slpk文件存储路径(包含文件后缀“.slpk”)。
+			\param slpk_sr slpk文件空间参考规则。
+			\param transformation 实现了 CS_transformation.transform(...) 方法的子类指针，用于将 gme_model 中的坐标转换为符合 slpk_sr 规则的坐标，为空则不转换。
+			\param err_str 转换未成功时的错误信息。
+
+			\TODO
+				1. 目前gmeModel仅支持结构体模型、钻孔柱模型和三维剖面模型。
+		*/
+		static bool gmeModelToSLPK(const gmeModel* gme_model, const std::string &slpk_path, const SLPK_SR slpk_sr, CS_transformation *transformation = nullptr, std::string *err_str = nullptr);
 
 		/*!
 			\brief 根据地形图和颜色图生成slpk文件
@@ -75,7 +105,6 @@ namespace Smart3dMap
 		static bool rasterToSLPK(const DEMData &dem_data, const ImageData &color_data, const std::string &slpk_path, std::string *err_str = nullptr);
 
 	private:
-		static bool gmeFeaListToSLPK(const std::vector<Smart3dMap::gmeFeature* > &fea_list, const std::string &slpk_path, std::string *err_str = nullptr, bool need_coordinate_transfer = true);
 	};
 }
 

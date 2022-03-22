@@ -117,7 +117,7 @@ namespace Smart3dMap
 	protected:
 		virtual void initBaseSqlConfiguration() override;
 
-		virtual void sqlGenAddCond(s3dSqlBase* sql_generator_ptr,const BaseSqlConfig &sql_config, std::vector<std::pair<std::string, AutoDataType>> &param_list);
+		virtual void sqlGenAddCond(s3dSqlBase* sql_generator_ptr,const BaseSqlConfig &sql_config, std::vector<std::pair<std::string, AutoDataType>> &param_list) override;
 
 
 	public:
@@ -178,8 +178,7 @@ namespace Smart3dMap
 		*/
 		static std::pair<ExecuteStatus, std::string> transferData(ExecuteResult &exe_result, SAConnection *source_db_ptr, const std::string &source_table_name, SAConnection *target_db_ptr, const std::string &target_table_name, const std::vector<FieldReflection> &field_reflection_list, const PreOption pre_option = NoOption);
 
-		template<class T>
-		void getDataAux(vector<T>& result_list,std::string funcName);
+
 		
 		//设置当前的数据库连接
 		void setCurDbConn(SAConnection *sql_api_con);
@@ -465,7 +464,8 @@ namespace Smart3dMap
 		void getTestData(std::string func_name, std::vector<ClassName> &result_list, std::vector<CONDITION_INFO> *conditions = nullptr);
 
 
-
+		template<class T>
+		void getDataAux(vector<T>& result_list, std::string funcName);
 
 		// TODO: 此函数未实现，暂不使用。
 		bool setCondsToSqlGen(std::vector<std::pair<std::string, AutoDataType>> &param_list, s3dSqlBase *sql_gen, std::vector<CONDITION_INFO> *conditions);

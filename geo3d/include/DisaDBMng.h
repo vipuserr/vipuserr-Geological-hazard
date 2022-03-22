@@ -76,8 +76,6 @@ namespace Smart3dMap
 	public:
 		//查询表全部信息
 		void getLandSliderHazard(std::vector<LandSliderHazard>& results);
-
-
 		//insert
 		bool insert(std::string inner_table_name, std::vector<UpdateInfo> &update_info_list, std::string &err_text);
         //update

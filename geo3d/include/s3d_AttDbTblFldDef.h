@@ -1,6 +1,4 @@
-﻿#ifndef S3d_ATTDBTBLFLDDEF__
-#define S3d_ATTDBTBLFLDDEF__
-
+﻿#pragma once
 
 #include "s3dAttDBEngine_exp.h"
 #include <string>
@@ -11,7 +9,7 @@
 
 namespace Smart3dMap
 {
-//共用宏
+	//共用宏
 #define UNION_MACRO_PNT_ID "PntID"  //点ID
 #define UNION_MACRO_START_DEPTH "StartDepth"  //起始深度
 #define UNION_MACRO_END_DEPTH "EndDepth"	  //终止深度
@@ -20,10 +18,10 @@ namespace Smart3dMap
 #define UNION_MACRO_GEOCODE "GeoCode"		//地质代号
 
 #define UNION_MACRO_PRJID	"PrjId"			//项目id
-#define UNION_MACRO_PRJCODE  "PrjCode"		//项目编号
-#define UNION_MACRO_TESTNO	"TestNo"		//试验编号
+#define UNION_MACRO_PRJCODE  "PrjCode"		//	项目编号
+#define UNION_MACRO_TESTNO	"TestNo"			//试验编号
 #define UNION_MACRO_TESTTYPE "TestType"		//试验类型
-#define UNION_MACRO_NOTE	"NOTE"		    //备注
+#define UNION_MACRO_NOTE	"NOTE"		//备注
 
 
 /*---------------------------------------基础信息表-------------------------------------------*/
@@ -6083,4 +6081,4 @@ typedef enum FieldMacro
 	};
 
 }
-#endif // !S3d_ATTDBTBLFLDDEF__
+

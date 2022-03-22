@@ -22,9 +22,9 @@ namespace Smart3dMap
 		string wzs ;      //省
 		string wzds ;     //市
 		string wzx ;      //县
-		string wzxz ;//乡镇
-		string wzc ;//村
-		string wzz ;//组
+		string wzxz ;     //乡镇
+		string wzc ;      //村
+		string wzz ;      //组
 		double jd ;//经度
 		double wd ;//维度
 		double x ;//x坐标
@@ -92,15 +92,15 @@ namespace Smart3dMap
 		long gzlxzmj;// 结构类型砖木间
 		long gzlxtpj;//结构类型土坯间
 		string gzlxqt;//结构类型其他
-		long jzytxx;//建筑用途学校个
-		long jzytyy;//建筑用途医院个
+		long jzytxx;//建筑用途学校
+		long jzytyy;//建筑用途医院
 		long jzytks;//建筑用途矿山座
 		long jzytgc;//建筑用途工厂座
 		double jzytgl;//建筑用途公路条
 		double jzyttl;//建筑用途铁路条
 		long gcsslxsk;//工程设施类型库座
 		long gcsslxdz;//工程设施类型电站座
-		long gcsslxsdx;//工程设施类型输电线路
+		double gcsslxsdx;//工程设施类型输电线路
 		double gcsslxtxx;//工程设施类型通讯线路
 		string gcsslxqt;//工程设施类型其他
 		bool fzcs;//防治措施*

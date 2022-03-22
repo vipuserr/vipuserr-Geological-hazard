@@ -19,7 +19,7 @@
                 <Item ResCode="----:2020:09:01:16:21:32:069" ControlType="Spliter" ResName="----" />
                 <Item ResCode="新标准地层编辑:2021:04:19:09:10:06:314" BmpFileName="" ControlType="QAction" FuncName="标准地层编辑" HotKey="" PlugName="二维系统功能插件" ResName="表格版标准地层编辑" />
                 <Item ResCode="数据信息表配置:2020:09:01:14:59:03:268" BmpFileName="" ControlType="QAction" FuncName="数据字典配置" HotKey="" PlugName="二维系统功能插件" ResName="钻孔数据库字典配置(&amp;I)" />
-                <Item ResCode="生成标准数据库:2020:09:01:16:18:07:030" BmpFileName="" ControlType="QAction" FuncName="生成标准数据库" HotKey="" PlugName="二维系统功能插件" ResName="生成标准数据库(&amp;O)" />
+                <Item ResCode="生成标准数据库:2020:09:01:16:18:07:030" BmpFileName="" ControlType="QAction" FuncName="创建默认数据库" HotKey="" PlugName="二维系统功能插件" ResName="生成标准数据库(&amp;O)" />
                 <Item ResCode="钻孔数据库检查:2020:10:21:17:06:52:199" BmpFileName="" ControlType="QAction" FuncName="钻孔数据检查" HotKey="" PlugName="地质数据管理插件" ResName="钻孔数据库检查" />
                 <Item ResCode="剖面图转虚拟钻孔:2020:11:20:10:40:54:173" BmpFileName="" ControlType="QAction" FuncName="剖面图转虚拟钻孔" HotKey="" PlugName="二维系统功能插件" ResName="剖面图转虚拟钻孔" />
                 <Item ResCode="水文钻孔数据增加隔水层:2021:01:16:10:53:54:954" BmpFileName="" ControlType="QAction" FuncName="水文钻孔数据增加隔水层" HotKey="" PlugName="地质数据管理插件" ResName="水文钻孔数据增加隔水层" />
@@ -32,6 +32,7 @@
                 <Item ResCode="钻孔数据入库:2021:12:06:10:58:00:643" BmpFileName="" ControlType="QAction" FuncName="钻孔数据入库" HotKey="" PlugName="二维系统功能插件" ResName="钻孔数据入库" />
                 <Item ResCode="shp按色号属性赋色:2022:01:16:10:24:56:662" BmpFileName="" ControlType="QAction" FuncName="shp按色号属性赋色" HotKey="" PlugName="二维系统功能插件" ResName="shp按色号属性赋色" />
                 <Item ResCode="obj模型坐标变换:2022:02:14:21:28:02:038" BmpFileName="" ControlType="QAction" FuncName="obj模型坐标变换" HotKey="" PlugName="三维建模与分析插件" ResName="obj模型坐标变换" />
+                <Item ResCode="数据库模板变换:2022:03:21:15:08:03:051" BmpFileName="" ControlType="QAction" FuncName="数据库模板变换" HotKey="" PlugName="二维系统功能插件" ResName="数据库模板变换" />
             </Item>
             <Item ResCode="查询统计:2021:04:19:09:07:42:095" BmpFileName="" ControlType="QMenu" HotKey="" ResName="查询统计(&amp;K)">
                 <Item ResCode="钻孔信息查询:2021:04:19:09:08:29:570" BmpFileName="" ControlType="QAction" FuncName="钻孔信息查询" HotKey="" PlugName="二维系统功能插件" ResName="钻孔信息查询" />
@@ -118,7 +119,7 @@
                 <Item ResCode="导入遥感解译数据:2021:11:30:15:06:57:496" BmpFileName="" ControlType="QAction" FuncName="导入遥感解译数据" HotKey="" PlugName="铁四院功能插件" ResName="导入遥感解译数据" />
                 <Item ResCode="导入地质纵断面图:2021:11:30:15:06:58:815" BmpFileName="" ControlType="QAction" FuncName="导入地质纵断面图" HotKey="" PlugName="铁四院功能插件" ResName="导入地质纵断面图" />
                 <Item ResCode="测试:2022:01:18:16:42:21:269" BmpFileName="" ControlType="QAction" FuncName="测试" HotKey="" PlugName="地质图件生成与处理插件" ResName="测试" />
-                <Item ResCode="地灾数据库API测试:2022:03:16:20:51:43:629" BmpFileName="" ControlType="QAction" FuncName="地灾数据库API测试" HotKey="" PlugName="二维系统功能插件" ResName="地灾数据库API测试" />
+                <Item ResCode="地灾数据库API测试:2022:03:21:21:04:38:889" BmpFileName="" ControlType="QAction" FuncName="地灾数据库API测试" HotKey="" PlugName="二维系统功能插件" ResName="地灾数据库API测试" />
             </Item>
         </Item>
     </MenuBar>
@@ -145,10 +146,10 @@
         </Item>
     </Toolbar>
     <VIEW ResCode="view:2020:01:04:18:38:13:720" ResName="视图">
-        <Item ResCode="数据层:2022:03:16:20:51:45:319" PluginFile="S3dAppFacePlugin_DockWidget.ogm" ViewName="数据层" ViewType="LeftView" />
-        <Item ResCode="3D视图:2022:03:16:20:51:45:319" PluginFile="S3dAppFacePlugin_3DView.ogx" PluginType="3DView" ViewName="3D视图" ViewType="CenterView" />
-        <Item ResCode="地图视图:2022:03:16:20:51:45:320" PluginFile="S3dAppFacePlugin_2DMapView.ogx" PluginType="2DView" ViewName="地图视图" ViewType="CenterView" />
-        <Item ResCode="专题视图:2022:03:16:20:51:45:320" PluginFile="S3dAppFacePlugin_2DExtView.ogx" PluginType="2DView" ViewName="专题视图" ViewType="CenterView" />
+        <Item ResCode="数据层:2022:03:21:21:04:43:290" PluginFile="S3dAppFacePlugin_DockWidget.ogm" ViewName="数据层" ViewType="LeftView" />
+        <Item ResCode="3D视图:2022:03:21:21:04:43:291" PluginFile="S3dAppFacePlugin_3DView.ogx" PluginType="3DView" ViewName="3D视图" ViewType="CenterView" />
+        <Item ResCode="地图视图:2022:03:21:21:04:43:291" PluginFile="S3dAppFacePlugin_2DMapView.ogx" PluginType="2DView" ViewName="地图视图" ViewType="CenterView" />
+        <Item ResCode="专题视图:2022:03:21:21:04:43:292" PluginFile="S3dAppFacePlugin_2DExtView.ogx" PluginType="2DView" ViewName="专题视图" ViewType="CenterView" />
     </VIEW>
     <StatusBar ResCode="statusBar:2020:01:04:18:38:13:720">
         <Item ResCode="messageStatus:2020:01:08:19:19:50:982" ControlType="messageStatus" DefaultValue="基本操作" ResName="操作" />

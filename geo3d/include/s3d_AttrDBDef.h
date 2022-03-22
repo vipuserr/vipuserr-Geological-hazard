@@ -1,7 +1,6 @@
-#ifndef __S3D_ATTRDBDEF_H__
-#define __S3D_ATTRDBDEF_H__
+#ifndef __S3D_ATTRDEF_H__
+#define __S3D_ATTRDEF_H__
 
-#include "s3dAttDBEngine_exp.h"
 #include <vector>
 #include <string>
 #include <unordered_map>
@@ -17,7 +16,7 @@ namespace Smart3dMap
 	typedef unsigned short ushort;
 
 	//标准地层描述表-基类 *
-	class S3D_ATT_DBENGINE_API s3d_BaseLayer
+	struct  s3d_BaseLayer
 	{
 	public:
 		long m_stdID;                 //* 标准地层版本ID		int		FK
@@ -74,7 +73,7 @@ namespace Smart3dMap
 	};
 
 	//钻孔标准分层表-基类 *
-	class S3D_ATT_DBENGINE_API s3d_BoreHoleLayer
+	struct  s3d_BoreHoleLayer
 	{
 	public:
 		int m_nHoleID;               //* 钻孔ID
@@ -119,7 +118,7 @@ namespace Smart3dMap
 	};
 
 	//钻孔基本信息表-基类
-	class S3D_ATT_DBENGINE_API s3d_BoreHole
+	struct  s3d_BoreHole
 	{
 	public:
 		int m_PrjID;                                //*项目ID			int
@@ -150,9 +149,8 @@ namespace Smart3dMap
 		}
 	};
 
-#include <string>
 	// 档案来源单位表 *
-	class S3D_ATT_DBENGINE_API Bas_DocOrganization
+	struct  Bas_DocOrganization
 	{
 	public:
 		long OrgnID;               //* 单位ID    int
@@ -171,7 +169,7 @@ namespace Smart3dMap
 	};
 
 	// 项目登记表 *
-	class S3D_ATT_DBENGINE_API Bas_PrjRegistration
+	struct  Bas_PrjRegistration
 	{
 	public:
 		long PrjID;                 //* 项目ID    int
@@ -195,7 +193,7 @@ namespace Smart3dMap
 	};
 
 	// 点位信息表 *
-	class S3D_ATT_DBENGINE_API Bas_PntStdInfo
+	struct  Bas_PntStdInfo
 	{
 	public:
 		long PntID;                       //* 标准点位ID    int
@@ -223,7 +221,7 @@ namespace Smart3dMap
 	};
 
 	// 钻孔登记审核表 *
-	class S3D_ATT_DBENGINE_API HoleRegister
+	struct  HoleRegister
 	{
 	public:
 		long HoleRegID;               //* 钻孔登记ID    int
@@ -252,7 +250,7 @@ namespace Smart3dMap
 	};
 
 	// 钻孔基本信息表 *
-	class S3D_ATT_DBENGINE_API HoleInfo : public s3d_BoreHole
+	struct  HoleInfo : public s3d_BoreHole
 	{
 	public:
 		std::string HoleCategory;    // 钻孔类别    varchar
@@ -316,7 +314,7 @@ namespace Smart3dMap
 	};
 
 	// 钻孔测斜表
-	class S3D_ATT_DBENGINE_API HoleInclinat
+	struct  HoleInclinat
 	{
 	public:
 		long HoleID;         //* 钻孔ID    int
@@ -326,7 +324,7 @@ namespace Smart3dMap
 	};
 
 	// 测井基本情况表
-	class S3D_ATT_DBENGINE_API HoleLogging
+	struct  HoleLogging
 	{
 	public:
 		long LoggingID;         //* 测井id    int
@@ -346,7 +344,7 @@ namespace Smart3dMap
 	};
 
 	// 标准地层用虚拟钻孔基本信息表
-	class S3D_ATT_DBENGINE_API StdStrat_VHole
+	struct  StdStrat_VHole
 	{
 	public:
 		long VIRHOLEID;            //* 虚拟孔ID    int
@@ -362,7 +360,7 @@ namespace Smart3dMap
 	};
 
 	// 标准地层用虚拟钻孔分层信息表
-	class S3D_ATT_DBENGINE_API StdStrat_VHolelLayer
+	struct  StdStrat_VHolelLayer
 	{
 	public:
 		long VIRHOLELAYERID;       //* 虚拟分层ID    int
@@ -390,7 +388,7 @@ namespace Smart3dMap
 	};
 
 	// 探槽观测点信息表
-	class S3D_ATT_DBENGINE_API HoleDetect
+	struct  HoleDetect
 	{
 	public:
 		long DetectID;               //* 探槽观测点ID    int
@@ -427,7 +425,7 @@ namespace Smart3dMap
 	};
 
 	// 浅井探槽岩性分层描述表
-	class S3D_ATT_DBENGINE_API HoleWellSlotLayer
+	struct  HoleWellSlotLayer
 	{
 	public:
 		long WallSlotLayerID;     //* 井槽分层ID    int
@@ -451,7 +449,7 @@ namespace Smart3dMap
 	};
 
 	// 电（磁）法勘探线参数表
-	class S3D_ATT_DBENGINE_API PhyElecline
+	struct  PhyElecline
 	{
 	public:
 		long EleclineID;          //* 电(磁)法测线ID    int
@@ -485,7 +483,7 @@ namespace Smart3dMap
 	};
 
 	// 地震勘探线参数表
-	class S3D_ATT_DBENGINE_API PhyEardeteline
+	struct  PhyEardeteline
 	{
 	public:
 		long EardetelineID;       //* 地震测线ID    int
@@ -516,7 +514,7 @@ namespace Smart3dMap
 	};
 
 	// 物探点位标准化信息表
-	class S3D_ATT_DBENGINE_API PhyStdPnt
+	struct  PhyStdPnt
 	{
 	public:
 		long StdPntID;                //* 标准测点ID    int
@@ -552,7 +550,7 @@ namespace Smart3dMap
 	};
 
 	// 标准地层版本表 *
-	class S3D_ATT_DBENGINE_API hole_stdStratVer
+	struct  hole_stdStratVer
 	{
 	public:
 		long StdStratVerID;          //* 标准地层版本    int
@@ -566,7 +564,7 @@ namespace Smart3dMap
 	};
 
 	// 标准地层描述表 *
-	class S3D_ATT_DBENGINE_API hole_stdStratDesc : public s3d_BaseLayer
+	struct  hole_stdStratDesc : public s3d_BaseLayer
 	{
 	public:
 		std::string m_strYtmc;     //岩土名称
@@ -585,7 +583,7 @@ namespace Smart3dMap
 	};
 
 	// 钻孔分层表 *
-	class S3D_ATT_DBENGINE_API HoleLayer : public s3d_BoreHoleLayer
+	struct  HoleLayer : public s3d_BoreHoleLayer
 	{
 	public:
 		long ID;			   // * 钻孔分层记录ID	int
@@ -601,7 +599,7 @@ namespace Smart3dMap
 	};
 
 	// 钻孔原始分层表
-	class S3D_ATT_DBENGINE_API HoleOrigLayer
+	struct  HoleOrigLayer
 	{
 	public:
 		long FieldLayerID;         //* 野外分层号ID    int
@@ -623,7 +621,7 @@ namespace Smart3dMap
 	};
 
 	// 止水结构表
-	class S3D_ATT_DBENGINE_API HoleWaterSeal
+	struct  HoleWaterSeal
 	{
 	public:
 		long WaterSealID;            // 止水ID    int
@@ -634,7 +632,7 @@ namespace Smart3dMap
 	};
 
 	// 填砾结构表
-	class S3D_ATT_DBENGINE_API HoleGravelPack
+	struct  HoleGravelPack
 	{
 	public:
 		long GravelPackID;         // 填砾ID    int
@@ -647,7 +645,7 @@ namespace Smart3dMap
 	};
 
 	// 井管结构表
-	class S3D_ATT_DBENGINE_API HoleWellPipe
+	struct  HoleWellPipe
 	{
 	public:
 		long WellPipeID;              // 井管ID    int
@@ -659,7 +657,7 @@ namespace Smart3dMap
 	};
 
 	// 孔径变化表
-	class S3D_ATT_DBENGINE_API HoleAperture
+	struct  HoleAperture
 	{
 	public:
 		long ApertureID; // 孔径ID    int
@@ -669,7 +667,7 @@ namespace Smart3dMap
 	};
 
 	// 标准贯入试验记录表
-	class S3D_ATT_DBENGINE_API EgStdPenetration : public Bas_PntStdInfo
+	struct  EgStdPenetration : public Bas_PntStdInfo
 	{
 	public:
 		long StdPenetratID;         //* 标贯记录ID    int
@@ -699,7 +697,7 @@ namespace Smart3dMap
 	};
 
 	// 静力触探试验记录表
-	class S3D_ATT_DBENGINE_API EgStaticPenetration : public Bas_PntStdInfo
+	struct  EgStaticPenetration : public Bas_PntStdInfo
 	{
 	public:
 		long StaticContactID;       //* 静探试验ID    int
@@ -730,7 +728,7 @@ namespace Smart3dMap
 	};
 
 	// 重型动力触探实验记录表
-	class S3D_ATT_DBENGINE_API EgMotDetect : public Bas_PntStdInfo
+	struct  EgMotDetect : public Bas_PntStdInfo
 	{
 	public:
 		long MotDetectID;           //* 动探记录ID    int
@@ -763,7 +761,7 @@ namespace Smart3dMap
 	};
 
 	// 轻型动力触探实验记录表
-	class S3D_ATT_DBENGINE_API LightEgMotDetect : public Bas_PntStdInfo
+	struct  LightEgMotDetect : public Bas_PntStdInfo
 	{
 	public:
 		long MotDetectID;           //* 动探记录ID    int
@@ -796,7 +794,7 @@ namespace Smart3dMap
 	};
 
 	// 十字板剪切试验记录表
-	class S3D_ATT_DBENGINE_API EgShear : public Bas_PntStdInfo
+	struct  EgShear : public Bas_PntStdInfo
 	{
 	public:
 		long CrossPlateID;          //* 十字板试验ID    int
@@ -826,7 +824,7 @@ namespace Smart3dMap
 	};
 
 	// 波速测试记录表
-	class S3D_ATT_DBENGINE_API EgWaveSpeed : public Bas_PntStdInfo
+	struct  EgWaveSpeed : public Bas_PntStdInfo
 	{
 	public:
 		long WaveSpeedID;           //* 波速记录ID    int
@@ -859,7 +857,7 @@ namespace Smart3dMap
 	};
 
 	// 旁压实验成果表
-	class S3D_ATT_DBENGINE_API EgPMT : public Bas_PntStdInfo
+	struct  EgPMT : public Bas_PntStdInfo
 	{
 	public:
 		long PMTID;                 //* 旁压试验ID    int
@@ -908,7 +906,7 @@ namespace Smart3dMap
 	};
 
 	// 载荷试验成果表
-	class S3D_ATT_DBENGINE_API EgLoadTest : public Bas_PntStdInfo
+	struct  EgLoadTest : public Bas_PntStdInfo
 	{
 	public:
 		long LoadTestID;               //* 载荷试验ID    int
@@ -973,7 +971,7 @@ namespace Smart3dMap
 	};
 
 	// 抽水试验成果表
-	class S3D_ATT_DBENGINE_API HYPumpExp : public Bas_PntStdInfo
+	struct  HYPumpExp : public Bas_PntStdInfo
 	{
 	public:
 		long PumpTestID;               //* 抽水试验ID    int
@@ -1018,7 +1016,7 @@ namespace Smart3dMap
 	};
 
 	// 抽水试验段信息表
-	class S3D_ATT_DBENGINE_API HYPumpExpSec : public Bas_PntStdInfo
+	struct  HYPumpExpSec : public Bas_PntStdInfo
 	{
 	public:
 		long SectionID;              //* 试验段ID    int
@@ -1044,7 +1042,7 @@ namespace Smart3dMap
 	};
 
 	// 抽水实验落程数据表
-	class S3D_ATT_DBENGINE_API HYPumpDropOff : public Bas_PntStdInfo
+	struct  HYPumpDropOff : public Bas_PntStdInfo
 	{
 	public:
 		long DropOffID;              //* 落程ID    int
@@ -1075,7 +1073,7 @@ namespace Smart3dMap
 	};
 
 	// 抽水水位观测记录表
-	class S3D_ATT_DBENGINE_API HYPumpLevelOb : public Bas_PntStdInfo
+	struct  HYPumpLevelOb : public Bas_PntStdInfo
 	{
 	public:
 		long DyWaterLevelID;        //* 动水位ID    int
@@ -1104,7 +1102,7 @@ namespace Smart3dMap
 	};
 
 	// 静水位观测记录表
-	class S3D_ATT_DBENGINE_API HYStaticWaterLevel : public Bas_PntStdInfo
+	struct  HYStaticWaterLevel : public Bas_PntStdInfo
 	{
 	public:
 		long StaWaterLevelID;       //* 静水位ID    int
@@ -1128,7 +1126,7 @@ namespace Smart3dMap
 	};
 
 	// 恢复水位观测记录表
-	class S3D_ATT_DBENGINE_API HYRevieWaterLevel : public Bas_PntStdInfo
+	struct  HYRevieWaterLevel : public Bas_PntStdInfo
 	{
 	public:
 		long ReWaterLevelID;          //* 恢复水位ID    int
@@ -1154,7 +1152,7 @@ namespace Smart3dMap
 	};
 
 	// 注水试验观测记录表
-	class S3D_ATT_DBENGINE_API HYWaterInjectOb : public Bas_PntStdInfo
+	struct  HYWaterInjectOb : public Bas_PntStdInfo
 	{
 	public:
 		long WaterInjectLevelID;       //* 注水水位ID    int
@@ -1198,7 +1196,7 @@ namespace Smart3dMap
 	};
 
 	// 回灌实验成果表
-	class S3D_ATT_DBENGINE_API HYRechargeExp : public Bas_PntStdInfo
+	struct  HYRechargeExp : public Bas_PntStdInfo
 	{
 	public:
 		long RechargeExpID;            //* 回灌试验ID    int
@@ -1242,7 +1240,7 @@ namespace Smart3dMap
 	};
 
 	// 回灌试验段信息表
-	class S3D_ATT_DBENGINE_API HYRechargeExpSect : public Bas_PntStdInfo
+	struct  HYRechargeExpSect : public Bas_PntStdInfo
 	{
 	public:
 		long SectionID;                //* 试验段ID    int
@@ -1268,7 +1266,7 @@ namespace Smart3dMap
 	};
 
 	// 回灌试验升程数据表
-	class S3D_ATT_DBENGINE_API HYRechargeExpLift : public Bas_PntStdInfo
+	struct  HYRechargeExpLift : public Bas_PntStdInfo
 	{
 	public:
 		long LiftID;                   //* 升程ID    int
@@ -1298,7 +1296,7 @@ namespace Smart3dMap
 	};
 
 	// 回灌试验观测记录表
-	class S3D_ATT_DBENGINE_API HYRechargeExpOb : public Bas_PntStdInfo
+	struct  HYRechargeExpOb : public Bas_PntStdInfo
 	{
 	public:
 		long DyWaterLevelID;           //* 回灌动水位ID    int
@@ -1328,7 +1326,7 @@ namespace Smart3dMap
 	};
 
 	// 热响应实验成果表
-	class S3D_ATT_DBENGINE_API HYThermalRes : public Bas_PntStdInfo
+	struct  HYThermalRes : public Bas_PntStdInfo
 	{
 	public:
 		long ThermalResID;          //* 热响应试验ID    int
@@ -1358,7 +1356,7 @@ namespace Smart3dMap
 	};
 
 	// 热响应试验地温观测记录表
-	class S3D_ATT_DBENGINE_API HYThernakResOb : public Bas_PntStdInfo
+	struct  HYThernakResOb : public Bas_PntStdInfo
 	{
 	public:
 		long GeoTempObID;       //* 地温观测记录ID    int
@@ -1375,7 +1373,7 @@ namespace Smart3dMap
 	};
 
 	// 渗水试验成果表
-	class S3D_ATT_DBENGINE_API HYWaterSeepageExp : public Bas_PntStdInfo
+	struct  HYWaterSeepageExp : public Bas_PntStdInfo
 	{
 	public:
 		long WaterSeepageExpID;         //* 渗水试验ID    int
@@ -1414,7 +1412,7 @@ namespace Smart3dMap
 	};
 
 	// 渗水试验观测记录表
-	class S3D_ATT_DBENGINE_API HYWaterSeepageExpOb : public Bas_PntStdInfo
+	struct  HYWaterSeepageExpOb : public Bas_PntStdInfo
 	{
 	public:
 		long WaterSeepageExpObID;      //* 渗水观测记录ID    int
@@ -1429,7 +1427,7 @@ namespace Smart3dMap
 	};
 
 	// 混合样品对照表
-	class S3D_ATT_DBENGINE_API SCMixSampCompare : public Bas_PntStdInfo
+	struct  SCMixSampCompare : public Bas_PntStdInfo
 	{
 	public:
 		long MixSampleID;           //* 混合样品id    int
@@ -1462,7 +1460,7 @@ namespace Smart3dMap
 	};
 
 	// 岩石样品基本情况表
-	class S3D_ATT_DBENGINE_API SCRockSample : public Bas_PntStdInfo
+	struct  SCRockSample : public Bas_PntStdInfo
 	{
 	public:
 		long RockID;                 //* 岩样ID    int
@@ -1502,7 +1500,7 @@ namespace Smart3dMap
 	};
 
 	// 土壤样品基本情况表
-	class S3D_ATT_DBENGINE_API SCSoilSample : public Bas_PntStdInfo
+	struct  SCSoilSample : public Bas_PntStdInfo
 	{
 	public:
 		long SoilID;                //* 土壤样ID    int
@@ -1549,7 +1547,7 @@ namespace Smart3dMap
 	};
 
 	// 水体沉积物样品基本情况表
-	class S3D_ATT_DBENGINE_API SCWaterSediment : public Bas_PntStdInfo
+	struct  SCWaterSediment : public Bas_PntStdInfo
 	{
 	public:
 		long WaterSedimentID;       //* 沉积物样ID    int
@@ -1592,7 +1590,7 @@ namespace Smart3dMap
 	};
 
 	// 沉积物柱状样品分层描述表
-	class S3D_ATT_DBENGINE_API SCSedimentColumn : public Bas_PntStdInfo
+	struct  SCSedimentColumn : public Bas_PntStdInfo
 	{
 	public:
 		long ColumnID;              //* 柱状样分层ID    int
@@ -1626,7 +1624,7 @@ namespace Smart3dMap
 	};
 
 	// 大气沉降样品基本情况表
-	class S3D_ATT_DBENGINE_API SCAtmosSample : public Bas_PntStdInfo
+	struct  SCAtmosSample : public Bas_PntStdInfo
 	{
 	public:
 		long AtmodepositID;         //* 大气沉降样ID    int
@@ -1662,7 +1660,7 @@ namespace Smart3dMap
 	};
 
 	// 水样基本情况表
-	class S3D_ATT_DBENGINE_API SCWaterSample : public Bas_PntStdInfo
+	struct  SCWaterSample : public Bas_PntStdInfo
 	{
 	public:
 		long WaterSampleID;         //* 水样ID    int
@@ -1706,7 +1704,7 @@ namespace Smart3dMap
 	};
 
 	// 水悬浮物样品基本情况表
-	class S3D_ATT_DBENGINE_API SCWaterSuspend : public Bas_PntStdInfo
+	struct  SCWaterSuspend : public Bas_PntStdInfo
 	{
 	public:
 		long SuspendID;             //* 水悬物样ID    int
@@ -1741,7 +1739,7 @@ namespace Smart3dMap
 	};
 
 	// 动植物样品基本情况表
-	class S3D_ATT_DBENGINE_API SCAnimalPlant : public Bas_PntStdInfo
+	struct  SCAnimalPlant : public Bas_PntStdInfo
 	{
 	public:
 		long AnimalSampID;          //* 动(植)样ID    int
@@ -1779,7 +1777,7 @@ namespace Smart3dMap
 	};
 
 	// 岩石物理力学实验成果表
-	class S3D_ATT_DBENGINE_API INRockPhysics : public Bas_PntStdInfo
+	struct  INRockPhysics : public Bas_PntStdInfo
 	{
 	public:
 		long RockTestID;            //* 岩石试验ID    int
@@ -1840,7 +1838,7 @@ namespace Smart3dMap
 	};
 
 	// 常规土工实验成果表 *
-	class S3D_ATT_DBENGINE_API INGeotechnicalExp : public Bas_PntStdInfo
+	struct  INGeotechnicalExp : public Bas_PntStdInfo
 	{
 	public:
 		long GeotechnicalID;        //* 土工ID    int
@@ -1968,7 +1966,7 @@ namespace Smart3dMap
 	};
 
 	// 高压固结实验成果表 *
-	class S3D_ATT_DBENGINE_API INConsolidatl : public Bas_PntStdInfo
+	struct  INConsolidatl : public Bas_PntStdInfo
 	{
 	public:
 		long ConsolidatID;          //* 高压固结ID    int
@@ -2024,7 +2022,7 @@ namespace Smart3dMap
 	};
 
 	// 无侧限压缩试验成果表
-	class S3D_ATT_DBENGINE_API INUnconfined : public Bas_PntStdInfo
+	struct  INUnconfined : public Bas_PntStdInfo
 	{
 	public:
 		long UnconfinedID;          //* 无侧限ID    int
@@ -2075,7 +2073,7 @@ namespace Smart3dMap
 	};
 
 	// 三轴实验成果表
-	class S3D_ATT_DBENGINE_API INThreeaxis : public Bas_PntStdInfo
+	struct  INThreeaxis : public Bas_PntStdInfo
 	{
 	public:
 		long ThreeaxisID;           //* 三轴ID    int
@@ -2126,7 +2124,7 @@ namespace Smart3dMap
 	};
 
 	// 直剪实验成果表
-	class S3D_ATT_DBENGINE_API INDirectShear : public Bas_PntStdInfo
+	struct  INDirectShear : public Bas_PntStdInfo
 	{
 	public:
 		long DirectShearID;         //* 直剪ID    int
@@ -2180,7 +2178,7 @@ namespace Smart3dMap
 	};
 
 	// 动三轴实验成果表
-	class S3D_ATT_DBENGINE_API INDynamicThaxis : public Bas_PntStdInfo
+	struct  INDynamicThaxis : public Bas_PntStdInfo
 	{
 	public:
 		long DynamicThaxisID;       //* 动三轴ID    int
@@ -2233,7 +2231,7 @@ namespace Smart3dMap
 	};
 
 	// 岩矿鉴定成果表
-	class S3D_ATT_DBENGINE_API INRockMineIdent : public Bas_PntStdInfo
+	struct  INRockMineIdent : public Bas_PntStdInfo
 	{
 	public:
 		long RockMineidentID;        //* 岩矿鉴定ID    int
@@ -2287,7 +2285,7 @@ namespace Smart3dMap
 	};
 
 	// 粘土（全岩）矿物鉴定成果表
-	class S3D_ATT_DBENGINE_API INClayMineralIdent : public Bas_PntStdInfo
+	struct  INClayMineralIdent : public Bas_PntStdInfo
 	{
 	public:
 		long ClayMineralID;         //* 粘土矿物ID    int
@@ -2348,7 +2346,7 @@ namespace Smart3dMap
 	};
 
 	// 粒度分析成果表
-	class S3D_ATT_DBENGINE_API INGranularityIdent : public Bas_PntStdInfo
+	struct  INGranularityIdent : public Bas_PntStdInfo
 	{
 	public:
 		long GranularityID;         //* 粒度ID    int
@@ -2406,7 +2404,7 @@ namespace Smart3dMap
 	};
 
 	// 热物性实验成果表
-	class S3D_ATT_DBENGINE_API INThermophysical : public Bas_PntStdInfo
+	struct  INThermophysical : public Bas_PntStdInfo
 	{
 	public:
 		long ThermophysicalID;      //* 热物性ID    int
@@ -2460,7 +2458,7 @@ namespace Smart3dMap
 	};
 
 	// 同位素测年成果表
-	class S3D_ATT_DBENGINE_API INIsotope : public Bas_PntStdInfo
+	struct  INIsotope : public Bas_PntStdInfo
 	{
 	public:
 		long IsotopeID;             //* 同位素ID    int
@@ -2511,7 +2509,7 @@ namespace Smart3dMap
 	};
 
 	// 释光测年成果表
-	class S3D_ATT_DBENGINE_API INLuminescence : public Bas_PntStdInfo
+	struct  INLuminescence : public Bas_PntStdInfo
 	{
 	public:
 		long LuminescenceID;        //* 释光ID    int
@@ -2562,7 +2560,7 @@ namespace Smart3dMap
 	};
 
 	// 孢粉组合表
-	class S3D_ATT_DBENGINE_API INPollenCombinat : public Bas_PntStdInfo
+	struct  INPollenCombinat : public Bas_PntStdInfo
 	{
 	public:
 		long PollenCombinatID;        //* 孢粉组合ID    int
@@ -2615,7 +2613,7 @@ namespace Smart3dMap
 	};
 
 	// 化石组合表
-	class S3D_ATT_DBENGINE_API INFossilCombinat : public Bas_PntStdInfo
+	struct  INFossilCombinat : public Bas_PntStdInfo
 	{
 	public:
 		long FossilCombinatID;        //* 化石组合ID    int
@@ -2665,7 +2663,7 @@ namespace Smart3dMap
 	};
 
 	// 化石鉴定数据表
-	class S3D_ATT_DBENGINE_API INFossilIdent : public Bas_PntStdInfo
+	struct  INFossilIdent : public Bas_PntStdInfo
 	{
 	public:
 		long FossilID;              //* 化石ID    int
@@ -2715,7 +2713,7 @@ namespace Smart3dMap
 	};
 
 	// 古地磁测试成果表
-	class S3D_ATT_DBENGINE_API INPaleomagnetic : public Bas_PntStdInfo
+	struct  INPaleomagnetic : public Bas_PntStdInfo
 	{
 	public:
 		long PaleomagneticID;       //* 古地磁ID    int
@@ -2766,7 +2764,7 @@ namespace Smart3dMap
 	};
 
 	// 水腐蚀性分析
-	class S3D_ATT_DBENGINE_API INWaterCausticity : public Bas_PntStdInfo
+	struct  INWaterCausticity : public Bas_PntStdInfo
 	{
 	public:
 		long WaterCausticityID;     //* 水腐蚀ID    int
@@ -2837,7 +2835,7 @@ namespace Smart3dMap
 	};
 
 	// 土腐蚀性分析
-	class S3D_ATT_DBENGINE_API INSoilCausticity : public Bas_PntStdInfo
+	struct  INSoilCausticity : public Bas_PntStdInfo
 	{
 	public:
 		long SoilCorrosionID;       //* 土腐蚀ID    int
@@ -2899,7 +2897,7 @@ namespace Smart3dMap
 	};
 
 	// 地球化学分析数据表
-	class S3D_ATT_DBENGINE_API INGeochemicalIdent : public Bas_PntStdInfo
+	struct  INGeochemicalIdent : public Bas_PntStdInfo
 	{
 	public:
 		long CheanalysisID;         //* 化学分析ID    int
@@ -2950,7 +2948,7 @@ namespace Smart3dMap
 	};
 
 	// 工勘孔土的易溶性分析
-	class S3D_ATT_DBENGINE_API Tyrxfxsj : public Bas_PntStdInfo
+	struct  Tyrxfxsj : public Bas_PntStdInfo
 	{
 	public:
 		long TyrxfxsjID;            //* ID    int
@@ -3008,7 +3006,7 @@ namespace Smart3dMap
 	};
 
 	// 工勘孔岩石RQD实验
-	class S3D_ATT_DBENGINE_API Ysrqdsj : public Bas_PntStdInfo
+	struct  Ysrqdsj : public Bas_PntStdInfo
 	{
 	public:
 		long TestID;                //* 测试ID    int
@@ -3057,7 +3055,7 @@ namespace Smart3dMap
 	};
 
 	// 岩石抗压强度表
-	class S3D_ATT_DBENGINE_API Yskyqd : public Bas_PntStdInfo
+	struct  Yskyqd : public Bas_PntStdInfo
 	{
 	public:
 		long TestID;                   //* 测试ID    int
@@ -3112,7 +3110,7 @@ namespace Smart3dMap
 	};
 
 	// 现场监测分析成果表
-	class S3D_ATT_DBENGINE_API INSceneExpIdent : public Bas_PntStdInfo
+	struct  INSceneExpIdent : public Bas_PntStdInfo
 	{
 	public:
 		long SceneExpIdentID;      //* 现场检测记录ID    int
@@ -3137,7 +3135,7 @@ namespace Smart3dMap
 	};
 
 	// 监测仪器基本情况表
-	class S3D_ATT_DBENGINE_API GeoEnvMonitorDivice : public Bas_PntStdInfo
+	struct  GeoEnvMonitorDivice : public Bas_PntStdInfo
 	{
 	public:
 		long MonitorEquipID;             //* 监测仪器ID    int
@@ -3176,7 +3174,7 @@ namespace Smart3dMap
 	};
 
 	// 地下水位水温监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvMonitoLevelTemp : public Bas_PntStdInfo
+	struct  GeoEnvMonitoLevelTemp : public Bas_PntStdInfo
 	{
 	public:
 		long LevelTempID;             //* 水位水温监测ID    int
@@ -3205,7 +3203,7 @@ namespace Smart3dMap
 	};
 
 	// （堰槽法）流量监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvWeirMonitoFlow : public Bas_PntStdInfo
+	struct  GeoEnvWeirMonitoFlow : public Bas_PntStdInfo
 	{
 	public:
 		long WeirMonitoFlowID;        //* 堰槽流量监测ID    int
@@ -3215,7 +3213,7 @@ namespace Smart3dMap
 		std::string FlowUnit;         // 流量单位    varchar
 		float _Flow;                  // 流量    float
 		long PntID;                   //* 点ID    int
-		std::string MonitorPntType;   // 监测点类型  varchar
+		std::string MonitorPntType;   // 监测点类型    varchar
 		std::string MonitorObj;       // 监测对象    varchar
 		std::string MonitorContent;   // 监测内容    varchar
 		std::string MonitorType;      // 监测方式    varchar
@@ -3233,7 +3231,7 @@ namespace Smart3dMap
 	};
 
 	// 监测断面测点数据表
-	class S3D_ATT_DBENGINE_API GeoEnvMonitoSectPnt : public Bas_PntStdInfo
+	struct  GeoEnvMonitoSectPnt : public Bas_PntStdInfo
 	{
 	public:
 		long TestFlowPntID;           //* 测流点ID    int
@@ -3273,7 +3271,7 @@ namespace Smart3dMap
 	};
 
 	// 地下水开采量监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvWaterExtract : public Bas_PntStdInfo
+	struct  GeoEnvWaterExtract : public Bas_PntStdInfo
 	{
 	public:
 		long ExploitatMonitorID;      //* 开采量监测ID    int
@@ -3300,7 +3298,7 @@ namespace Smart3dMap
 	};
 
 	// 地面沉降监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvLandSubsidence : public Bas_PntStdInfo
+	struct  GeoEnvLandSubsidence : public Bas_PntStdInfo
 	{
 	public:
 		long SubsidenceID;            //* 沉降监测ID    int
@@ -3327,7 +3325,7 @@ namespace Smart3dMap
 	};
 
 	// 孔隙水压力监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvPoreWater : public Bas_PntStdInfo
+	struct  GeoEnvPoreWater : public Bas_PntStdInfo
 	{
 	public:
 		long PoreWaterID;             //* 孔隙水压监测ID    int
@@ -3354,7 +3352,7 @@ namespace Smart3dMap
 	};
 
 	// 地应力监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvGroundStress : public Bas_PntStdInfo
+	struct  GeoEnvGroundStress : public Bas_PntStdInfo
 	{
 	public:
 		long GroundStressID;          //* 地应力监测ID    int
@@ -3381,7 +3379,7 @@ namespace Smart3dMap
 	};
 
 	// 降雨量监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvRainFall : public Bas_PntStdInfo
+	struct  GeoEnvRainFall : public Bas_PntStdInfo
 	{
 	public:
 		long RainFallID;              //* 降雨量监测ID    int
@@ -3410,7 +3408,7 @@ namespace Smart3dMap
 	};
 
 	// 蒸发量监测数据表
-	class S3D_ATT_DBENGINE_API GeoEnvEvaporation : public Bas_PntStdInfo
+	struct  GeoEnvEvaporation : public Bas_PntStdInfo
 	{
 	public:
 		long EvaporationID;           //* 蒸发量监测ID    int
@@ -3440,4 +3438,5 @@ namespace Smart3dMap
 
 
 }
+
 #endif

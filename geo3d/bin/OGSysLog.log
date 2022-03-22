@@ -1,25 +1,25 @@
-10:39:06: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp
-10:39:06: 加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp成功！
-10:39:06: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp成功!
-10:39:06: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp成功!
-10:39:07: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp成功!
-10:39:07: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp成功!
-10:39:07: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp成功!
-10:39:07: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp成功!
-10:39:07: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp
-10:39:07: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp成功！
-10:39:07: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp成功!
-10:39:08: 初始化主视图插件 3D视图成功!
-10:39:08: 初始化主视图插件 地图视图成功!
-10:39:08: 初始化主视图插件 专题视图成功!
-10:39:08: 初始化左窗口插件 数据层成功!
+21:59:08: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp
+21:59:10: 加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp成功！
+21:59:10: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo2d.ogp成功!
+21:59:10: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp
+21:59:10: 加载D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp成功！
+21:59:10: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/LayerPlugin_geo3d.ogp成功!
+21:59:10: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp
+21:59:11: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp成功！
+21:59:11: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_crcc.ogp成功!
+21:59:11: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp
+21:59:12: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp成功！
+21:59:12: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo2d.ogp成功!
+21:59:12: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp
+21:59:12: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp成功！
+21:59:12: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geo3d.ogp成功!
+21:59:12: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp
+21:59:12: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp成功！
+21:59:12: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoDb.ogp成功!
+21:59:12: 开始加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp
+21:59:12: 加载D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp成功！
+21:59:12: 初始化 D:/geo3d/Devenv/apps/geo3d/bin/Plugin_geoMap.ogp成功!
+21:59:15: 初始化主视图插件 3D视图成功!
+21:59:15: 初始化主视图插件 地图视图成功!
+21:59:15: 初始化主视图插件 专题视图成功!
+21:59:15: 初始化左窗口插件 数据层成功!

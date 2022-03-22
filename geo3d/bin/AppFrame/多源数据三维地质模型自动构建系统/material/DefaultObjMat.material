@@ -1,3 +1,831 @@
+TraditionalMat REG_01ÔÓÌîÍÁ_14548991
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_01ÔÓÌîÍÁ_14548991.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_02Õ³ÍÁ_11730943
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_02Õ³ÍÁ_11730943.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_02Õ³ÍÁ_6750207
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_02Õ³ÍÁ_6750207.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_03ÓÙÄà_10092543
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_03ÓÙÄà_10092543.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_03ÓÙÄà_12779519
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_03ÓÙÄà_12779519.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_04·ÛÖÊÕ³ÍÁ_11272191
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_04·ÛÖÊÕ³ÍÁ_11272191.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_04·ÛÖÊÕ³ÍÁ_1703935
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_04·ÛÖÊÕ³ÍÁ_1703935.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_04·ÛÖÊÕ³ÍÁ_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_04·ÛÖÊÕ³ÍÁ_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_04·ÛÖÊÕ³ÍÁ_9957887
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_04·ÛÖÊÕ³ÍÁ_9957887.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05Ï¸É°_11272191
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05Ï¸É°_11272191.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05Ï¸É°_12779519
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05Ï¸É°_12779519.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05Ï¸É°_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05Ï¸É°_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05ÖÐÉ°_11272191
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05ÖÐÉ°_11272191.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05ÖÐÉ°_11730943
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05ÖÐÉ°_11730943.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_05ÖÐÉ°_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_05ÖÐÉ°_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_06´ÖÉ°¡¢Àù_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_06´ÖÉ°¡¢Àù_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_07ÓÙÄàÖÊÍÁ_12779519
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_07ÓÙÄàÖÊÍÁ_12779519.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_07ÓÙÄàÖÊÍÁ_6750207
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_07ÓÙÄàÖÊÍÁ_6750207.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_08ÂÑÊ¯_1703935
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_08ÂÑÊ¯_1703935.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_08ÂÑÊ¯_239
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_08ÂÑÊ¯_239.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_08ÂÑÊ¯_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_08ÂÑÊ¯_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_09²Ð»ýÍÁ_10223603
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_09²Ð»ýÍÁ_10223603.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
+TraditionalMat REG_09²Ð»ýÍÁ_8453119
+{
+	ambient 1.0 1.0 1.0 0.0
+	diffuse 1.0 1.0 1.0 0.0
+	specular 0.0 0.0 0.0 0.0
+	emssion 0.0 0.0 0.0 0.0
+	shininess 0.0
+	TextureList
+	{
+		1
+		REG_09²Ð»ýÍÁ_8453119.png
+	}
+	TextureAddressMode
+	{
+		1
+		REPEAT
+	}
+	Cull
+	{
+		cullFace 1
+		cullFaceMode BACK
+	}
+	AlphaTest
+	{
+		alphaTest 0
+		alphaTestValue 0.0
+		comparisonFunc LESS
+	}
+	AlphaBlend
+	{
+		alphaBlend 0
+		alphaBlendCol 0.5 0.5 0.5 0.5
+		sourceAlphaBlendMode SRC_ALPHA
+		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
+	}
+}
 TraditionalMat REG_0_10066431
 {
 	ambient 1.0 0.6 0.6 1.0
@@ -1630,7 +2458,7 @@ TraditionalMat REG_0_9957887
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_1-1_14548991
+TraditionalMat REG_10»¨¸ÚÑÒ_1655039
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1640,7 +2468,7 @@ TraditionalMat REG_1-1_14548991
 	TextureList
 	{
 		1
-		REG_1-1_14548991.png
+		REG_10»¨¸ÚÑÒ_1655039.png
 	}
 	TextureAddressMode
 	{
@@ -1666,7 +2494,7 @@ TraditionalMat REG_1-1_14548991
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_1-2_14548991
+TraditionalMat REG_10»¨¸ÚÑÒ_16724991
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1676,7 +2504,7 @@ TraditionalMat REG_1-2_14548991
 	TextureList
 	{
 		1
-		REG_1-2_14548991.png
+		REG_10»¨¸ÚÑÒ_16724991.png
 	}
 	TextureAddressMode
 	{
@@ -1702,7 +2530,7 @@ TraditionalMat REG_1-2_14548991
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_1-3_14548991
+TraditionalMat REG_10»¨¸ÚÑÒ_16751103
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1712,7 +2540,7 @@ TraditionalMat REG_1-3_14548991
 	TextureList
 	{
 		1
-		REG_1-3_14548991.png
+		REG_10»¨¸ÚÑÒ_16751103.png
 	}
 	TextureAddressMode
 	{
@@ -1738,7 +2566,7 @@ TraditionalMat REG_1-3_14548991
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_1-4_14548991
+TraditionalMat REG_10»¨¸ÚÑÒ_255
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1748,7 +2576,7 @@ TraditionalMat REG_1-4_14548991
 	TextureList
 	{
 		1
-		REG_1-4_14548991.png
+		REG_10»¨¸ÚÑÒ_255.png
 	}
 	TextureAddressMode
 	{
@@ -1774,7 +2602,7 @@ TraditionalMat REG_1-4_14548991
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_10-1_9957887
+TraditionalMat REG_10»¨¸ÚÑÒ_6704383
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1784,7 +2612,7 @@ TraditionalMat REG_10-1_9957887
 	TextureList
 	{
 		1
-		REG_10-1_9957887.png
+		REG_10»¨¸ÚÑÒ_6704383.png
 	}
 	TextureAddressMode
 	{
@@ -1810,7 +2638,7 @@ TraditionalMat REG_10-1_9957887
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_11-1_10223603
+TraditionalMat REG_10Äý»ÒÈÛÑÒ_15073100
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1820,7 +2648,7 @@ TraditionalMat REG_11-1_10223603
 	TextureList
 	{
 		1
-		REG_11-1_10223603.png
+		REG_10Äý»ÒÈÛÑÒ_15073100.png
 	}
 	TextureAddressMode
 	{
@@ -1846,7 +2674,7 @@ TraditionalMat REG_11-1_10223603
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_11-2_10223603
+TraditionalMat REG_10Äý»ÒÈÛÑÒ_15073227
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1856,7 +2684,7 @@ TraditionalMat REG_11-2_10223603
 	TextureList
 	{
 		1
-		REG_11-2_10223603.png
+		REG_10Äý»ÒÈÛÑÒ_15073227.png
 	}
 	TextureAddressMode
 	{
@@ -1882,7 +2710,7 @@ TraditionalMat REG_11-2_10223603
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_11-3_10223603
+TraditionalMat REG_10Äý»ÒÈÛÑÒ_15073253
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1892,7 +2720,7 @@ TraditionalMat REG_11-3_10223603
 	TextureList
 	{
 		1
-		REG_11-3_10223603.png
+		REG_10Äý»ÒÈÛÑÒ_15073253.png
 	}
 	TextureAddressMode
 	{
@@ -1918,7 +2746,7 @@ TraditionalMat REG_11-3_10223603
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_11-4_10223603
+TraditionalMat REG_10Äý»ÒÈÛÑÒ_16777138
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1928,7 +2756,7 @@ TraditionalMat REG_11-4_10223603
 	TextureList
 	{
 		1
-		REG_11-4_10223603.png
+		REG_10Äý»ÒÈÛÑÒ_16777138.png
 	}
 	TextureAddressMode
 	{
@@ -1954,7 +2782,7 @@ TraditionalMat REG_11-4_10223603
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_11-5_10223603
+TraditionalMat REG_10Äý»ÒÈÛÑÒ_8453119
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -1964,7 +2792,7 @@ TraditionalMat REG_11-5_10223603
 	TextureList
 	{
 		1
-		REG_11-5_10223603.png
+		REG_10Äý»ÒÈÛÑÒ_8453119.png
 	}
 	TextureAddressMode
 	{
@@ -1990,7 +2818,7 @@ TraditionalMat REG_11-5_10223603
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_12-1_15073253
+TraditionalMat REG_122_11272191
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2000,7 +2828,7 @@ TraditionalMat REG_12-1_15073253
 	TextureList
 	{
 		1
-		REG_12-1_15073253.png
+		REG_122_11272191.png
 	}
 	TextureAddressMode
 	{
@@ -2026,7 +2854,7 @@ TraditionalMat REG_12-1_15073253
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_12-2_15073227
+TraditionalMat REG_1_11534335
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2036,7 +2864,7 @@ TraditionalMat REG_12-2_15073227
 	TextureList
 	{
 		1
-		REG_12-2_15073227.png
+		REG_1_11534335.png
 	}
 	TextureAddressMode
 	{
@@ -2062,7 +2890,7 @@ TraditionalMat REG_12-2_15073227
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_12-3_16777138
+TraditionalMat REG_1_11730943
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2072,7 +2900,7 @@ TraditionalMat REG_12-3_16777138
 	TextureList
 	{
 		1
-		REG_12-3_16777138.png
+		REG_1_11730943.png
 	}
 	TextureAddressMode
 	{
@@ -2098,7 +2926,7 @@ TraditionalMat REG_12-3_16777138
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_12-4_15073100
+TraditionalMat REG_1_14548991
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2108,7 +2936,7 @@ TraditionalMat REG_12-4_15073100
 	TextureList
 	{
 		1
-		REG_12-4_15073100.png
+		REG_1_14548991.png
 	}
 	TextureAddressMode
 	{
@@ -2134,7 +2962,7 @@ TraditionalMat REG_12-4_15073100
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_13-1_16750471
+TraditionalMat REG_1_1703935
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2144,7 +2972,7 @@ TraditionalMat REG_13-1_16750471
 	TextureList
 	{
 		1
-		REG_13-1_16750471.png
+		REG_1_1703935.png
 	}
 	TextureAddressMode
 	{
@@ -2170,7 +2998,7 @@ TraditionalMat REG_13-1_16750471
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_13-2_16746240
+TraditionalMat REG_1_6750207
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2180,7 +3008,7 @@ TraditionalMat REG_13-2_16746240
 	TextureList
 	{
 		1
-		REG_13-2_16746240.png
+		REG_1_6750207.png
 	}
 	TextureAddressMode
 	{
@@ -2206,7 +3034,7 @@ TraditionalMat REG_13-2_16746240
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_13-3_14640896
+TraditionalMat REG_1_8453119
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2216,7 +3044,7 @@ TraditionalMat REG_13-3_14640896
 	TextureList
 	{
 		1
-		REG_13-3_14640896.png
+		REG_1_8453119.png
 	}
 	TextureAddressMode
 	{
@@ -2242,7 +3070,7 @@ TraditionalMat REG_13-3_14640896
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_13-4_12535552
+TraditionalMat REG_1_9957887
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2252,7 +3080,7 @@ TraditionalMat REG_13-4_12535552
 	TextureList
 	{
 		1
-		REG_13-4_12535552.png
+		REG_1_9957887.png
 	}
 	TextureAddressMode
 	{
@@ -2278,7 +3106,7 @@ TraditionalMat REG_13-4_12535552
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_14-1_13434841
+TraditionalMat REG_3_10092390
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2288,7 +3116,7 @@ TraditionalMat REG_14-1_13434841
 	TextureList
 	{
 		1
-		REG_14-1_13434841.png
+		REG_3_10092390.png
 	}
 	TextureAddressMode
 	{
@@ -2314,7 +3142,7 @@ TraditionalMat REG_14-1_13434841
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_14-2_11730841
+TraditionalMat REG_3_12779519
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2324,7 +3152,7 @@ TraditionalMat REG_14-2_11730841
 	TextureList
 	{
 		1
-		REG_14-2_11730841.png
+		REG_3_12779519.png
 	}
 	TextureAddressMode
 	{
@@ -2350,7 +3178,7 @@ TraditionalMat REG_14-2_11730841
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_14-3_10092390
+TraditionalMat REG_3_13290239
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2360,7 +3188,7 @@ TraditionalMat REG_14-3_10092390
 	TextureList
 	{
 		1
-		REG_14-3_10092390.png
+		REG_3_13290239.png
 	}
 	TextureAddressMode
 	{
@@ -2386,7 +3214,7 @@ TraditionalMat REG_14-3_10092390
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_14-4_6736998
+TraditionalMat REG_3_14640896
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2396,7 +3224,7 @@ TraditionalMat REG_14-4_6736998
 	TextureList
 	{
 		1
-		REG_14-4_6736998.png
+		REG_3_14640896.png
 	}
 	TextureAddressMode
 	{
@@ -2422,7 +3250,7 @@ TraditionalMat REG_14-4_6736998
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_15-1_16753615
+TraditionalMat REG_3_16753615
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2432,7 +3260,7 @@ TraditionalMat REG_15-1_16753615
 	TextureList
 	{
 		1
-		REG_15-1_16753615.png
+		REG_3_16753615.png
 	}
 	TextureAddressMode
 	{
@@ -2458,7 +3286,7 @@ TraditionalMat REG_15-1_16753615
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_15-2_16746439
+TraditionalMat REG_3_16764159
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2468,7 +3296,7 @@ TraditionalMat REG_15-2_16746439
 	TextureList
 	{
 		1
-		REG_15-2_16746439.png
+		REG_3_16764159.png
 	}
 	TextureAddressMode
 	{
@@ -2494,7 +3322,7 @@ TraditionalMat REG_15-2_16746439
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_15-3_16711871
+TraditionalMat REG_3_16777138
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2504,7 +3332,7 @@ TraditionalMat REG_15-3_16711871
 	TextureList
 	{
 		1
-		REG_15-3_16711871.png
+		REG_3_16777138.png
 	}
 	TextureAddressMode
 	{
@@ -2530,7 +3358,7 @@ TraditionalMat REG_15-3_16711871
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_15-4_14614687
+TraditionalMat REG_3_255
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2540,7 +3368,7 @@ TraditionalMat REG_15-4_14614687
 	TextureList
 	{
 		1
-		REG_15-4_14614687.png
+		REG_3_255.png
 	}
 	TextureAddressMode
 	{
@@ -2566,7 +3394,7 @@ TraditionalMat REG_15-4_14614687
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_16-1_16770559
+TraditionalMat REG_4_8453119
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2576,7 +3404,7 @@ TraditionalMat REG_16-1_16770559
 	TextureList
 	{
 		1
-		REG_16-1_16770559.png
+		REG_4_8453119.png
 	}
 	TextureAddressMode
 	{
@@ -2602,7 +3430,7 @@ TraditionalMat REG_16-1_16770559
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_16-2_16767487
+TraditionalMat REG_5_25535
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2612,7 +3440,7 @@ TraditionalMat REG_16-2_16767487
 	TextureList
 	{
 		1
-		REG_16-2_16767487.png
+		REG_5_25535.png
 	}
 	TextureAddressMode
 	{
@@ -2638,7 +3466,7 @@ TraditionalMat REG_16-2_16767487
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_16-3_16764159
+TraditionalMat REG_²Ð»ýÍÁ - ¸±±¾_10223603
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2648,7 +3476,7 @@ TraditionalMat REG_16-3_16764159
 	TextureList
 	{
 		1
-		REG_16-3_16764159.png
+		REG_²Ð»ýÍÁ - ¸±±¾_10223603.png
 	}
 	TextureAddressMode
 	{
@@ -2674,7 +3502,7 @@ TraditionalMat REG_16-3_16764159
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_16-4_16757503
+TraditionalMat REG_²Ð»ýÍÁ_10223603
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2684,7 +3512,7 @@ TraditionalMat REG_16-4_16757503
 	TextureList
 	{
 		1
-		REG_16-4_16757503.png
+		REG_²Ð»ýÍÁ_10223603.png
 	}
 	TextureAddressMode
 	{
@@ -2710,7 +3538,7 @@ TraditionalMat REG_16-4_16757503
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_17-1_16751103
+TraditionalMat REG_·ç»ýÉ°1_12044263
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2720,7 +3548,7 @@ TraditionalMat REG_17-1_16751103
 	TextureList
 	{
 		1
-		REG_17-1_16751103.png
+		REG_·ç»ýÉ°1_12044263.png
 	}
 	TextureAddressMode
 	{
@@ -2746,7 +3574,7 @@ TraditionalMat REG_17-1_16751103
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_17-2_16724991
+TraditionalMat REG_·ç»ýÉ°1_13098999
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2756,7 +3584,7 @@ TraditionalMat REG_17-2_16724991
 	TextureList
 	{
 		1
-		REG_17-2_16724991.png
+		REG_·ç»ýÉ°1_13098999.png
 	}
 	TextureAddressMode
 	{
@@ -2782,7 +3610,7 @@ TraditionalMat REG_17-2_16724991
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_17-3_6704383
+TraditionalMat REG_·ç»ýÉ°1_6240175
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2792,7 +3620,7 @@ TraditionalMat REG_17-3_6704383
 	TextureList
 	{
 		1
-		REG_17-3_6704383.png
+		REG_·ç»ýÉ°1_6240175.png
 	}
 	TextureAddressMode
 	{
@@ -2818,7 +3646,7 @@ TraditionalMat REG_17-3_6704383
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_17-4_1655039
+TraditionalMat REG_·ç»ýÉ°1_8626143
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2828,7 +3656,7 @@ TraditionalMat REG_17-4_1655039
 	TextureList
 	{
 		1
-		REG_17-4_1655039.png
+		REG_·ç»ýÉ°1_8626143.png
 	}
 	TextureAddressMode
 	{
@@ -2854,7 +3682,7 @@ TraditionalMat REG_17-4_1655039
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_17-5_255
+TraditionalMat REG_·ç»ýÉ°2_16757503
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2864,7 +3692,7 @@ TraditionalMat REG_17-5_255
 	TextureList
 	{
 		1
-		REG_17-5_255.png
+		REG_·ç»ýÉ°2_16757503.png
 	}
 	TextureAddressMode
 	{
@@ -2890,7 +3718,7 @@ TraditionalMat REG_17-5_255
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_18-1_10066431
+TraditionalMat REG_·ç»ýÉ°2_16764159
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2900,7 +3728,7 @@ TraditionalMat REG_18-1_10066431
 	TextureList
 	{
 		1
-		REG_18-1_10066431.png
+		REG_·ç»ýÉ°2_16764159.png
 	}
 	TextureAddressMode
 	{
@@ -2926,7 +3754,7 @@ TraditionalMat REG_18-1_10066431
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_18-2_8355839
+TraditionalMat REG_·ç»ýÉ°2_16767487
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2936,7 +3764,7 @@ TraditionalMat REG_18-2_8355839
 	TextureList
 	{
 		1
-		REG_18-2_8355839.png
+		REG_·ç»ýÉ°2_16767487.png
 	}
 	TextureAddressMode
 	{
@@ -2962,7 +3790,7 @@ TraditionalMat REG_18-2_8355839
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_18-3_6711039
+TraditionalMat REG_·ç»ýÉ°2_16770559
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -2972,7 +3800,7 @@ TraditionalMat REG_18-3_6711039
 	TextureList
 	{
 		1
-		REG_18-3_6711039.png
+		REG_·ç»ýÉ°2_16770559.png
 	}
 	TextureAddressMode
 	{
@@ -2998,7 +3826,7 @@ TraditionalMat REG_18-3_6711039
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_18-4_5000447
+TraditionalMat REG_»¨¸ÚÑÒ_10066431
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3008,7 +3836,7 @@ TraditionalMat REG_18-4_5000447
 	TextureList
 	{
 		1
-		REG_18-4_5000447.png
+		REG_»¨¸ÚÑÒ_10066431.png
 	}
 	TextureAddressMode
 	{
@@ -3034,7 +3862,7 @@ TraditionalMat REG_18-4_5000447
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_19-1_13098999
+TraditionalMat REG_»¨¸ÚÑÒ_14614687
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3044,7 +3872,7 @@ TraditionalMat REG_19-1_13098999
 	TextureList
 	{
 		1
-		REG_19-1_13098999.png
+		REG_»¨¸ÚÑÒ_14614687.png
 	}
 	TextureAddressMode
 	{
@@ -3070,7 +3898,7 @@ TraditionalMat REG_19-1_13098999
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_19-2_12044263
+TraditionalMat REG_»¨¸ÚÑÒ_16711871
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3080,7 +3908,7 @@ TraditionalMat REG_19-2_12044263
 	TextureList
 	{
 		1
-		REG_19-2_12044263.png
+		REG_»¨¸ÚÑÒ_16711871.png
 	}
 	TextureAddressMode
 	{
@@ -3106,7 +3934,7 @@ TraditionalMat REG_19-2_12044263
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_19-3_8626143
+TraditionalMat REG_»¨¸ÚÑÒ_16746439
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3116,7 +3944,7 @@ TraditionalMat REG_19-3_8626143
 	TextureList
 	{
 		1
-		REG_19-3_8626143.png
+		REG_»¨¸ÚÑÒ_16746439.png
 	}
 	TextureAddressMode
 	{
@@ -3142,7 +3970,7 @@ TraditionalMat REG_19-3_8626143
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_19-4_6240175
+TraditionalMat REG_»¨¸ÚÑÒ_16753615
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3152,7 +3980,7 @@ TraditionalMat REG_19-4_6240175
 	TextureList
 	{
 		1
-		REG_19-4_6240175.png
+		REG_»¨¸ÚÑÒ_16753615.png
 	}
 	TextureAddressMode
 	{
@@ -3178,7 +4006,7 @@ TraditionalMat REG_19-4_6240175
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_2-1_12779519
+TraditionalMat REG_»¨¸ÚÑÒ_5000447
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3188,7 +4016,7 @@ TraditionalMat REG_2-1_12779519
 	TextureList
 	{
 		1
-		REG_2-1_12779519.png
+		REG_»¨¸ÚÑÒ_5000447.png
 	}
 	TextureAddressMode
 	{
@@ -3214,7 +4042,7 @@ TraditionalMat REG_2-1_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_2-2_10092543
+TraditionalMat REG_»¨¸ÚÑÒ_6711039
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3224,7 +4052,7 @@ TraditionalMat REG_2-2_10092543
 	TextureList
 	{
 		1
-		REG_2-2_10092543.png
+		REG_»¨¸ÚÑÒ_6711039.png
 	}
 	TextureAddressMode
 	{
@@ -3250,7 +4078,7 @@ TraditionalMat REG_2-2_10092543
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-1_12779519
+TraditionalMat REG_»¨¸ÚÑÒ_8355839
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3260,7 +4088,7 @@ TraditionalMat REG_3-1_12779519
 	TextureList
 	{
 		1
-		REG_3-1_12779519.png
+		REG_»¨¸ÚÑÒ_8355839.png
 	}
 	TextureAddressMode
 	{
@@ -3286,7 +4114,7 @@ TraditionalMat REG_3-1_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-2_12779519
+TraditionalMat REG_ÂÑÊ¯1_11272191
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3296,7 +4124,7 @@ TraditionalMat REG_3-2_12779519
 	TextureList
 	{
 		1
-		REG_3-2_12779519.png
+		REG_ÂÑÊ¯1_11272191.png
 	}
 	TextureAddressMode
 	{
@@ -3322,7 +4150,7 @@ TraditionalMat REG_3-2_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-3_12779519
+TraditionalMat REG_ÂÑÊ¯1_8453119
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3332,7 +4160,7 @@ TraditionalMat REG_3-3_12779519
 	TextureList
 	{
 		1
-		REG_3-3_12779519.png
+		REG_ÂÑÊ¯1_8453119.png
 	}
 	TextureAddressMode
 	{
@@ -3358,7 +4186,7 @@ TraditionalMat REG_3-3_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-4_11730943
+TraditionalMat REG_Äý»ÒÑÒ_12535552
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3368,7 +4196,7 @@ TraditionalMat REG_3-4_11730943
 	TextureList
 	{
 		1
-		REG_3-4_11730943.png
+		REG_Äý»ÒÑÒ_12535552.png
 	}
 	TextureAddressMode
 	{
@@ -3394,7 +4222,7 @@ TraditionalMat REG_3-4_11730943
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-5_12779519
+TraditionalMat REG_Äý»ÒÑÒ_14640896
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3404,7 +4232,7 @@ TraditionalMat REG_3-5_12779519
 	TextureList
 	{
 		1
-		REG_3-5_12779519.png
+		REG_Äý»ÒÑÒ_14640896.png
 	}
 	TextureAddressMode
 	{
@@ -3430,7 +4258,7 @@ TraditionalMat REG_3-5_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_3-6_12779519
+TraditionalMat REG_Äý»ÒÑÒ_16746240
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3440,7 +4268,7 @@ TraditionalMat REG_3-6_12779519
 	TextureList
 	{
 		1
-		REG_3-6_12779519.png
+		REG_Äý»ÒÑÒ_16746240.png
 	}
 	TextureAddressMode
 	{
@@ -3466,7 +4294,7 @@ TraditionalMat REG_3-6_12779519
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-1_11272191
+TraditionalMat REG_Äý»ÒÑÒ_16750471
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3476,7 +4304,7 @@ TraditionalMat REG_4-1_11272191
 	TextureList
 	{
 		1
-		REG_4-1_11272191.png
+		REG_Äý»ÒÑÒ_16750471.png
 	}
 	TextureAddressMode
 	{
@@ -3502,7 +4330,7 @@ TraditionalMat REG_4-1_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-2_11272191
+TraditionalMat REG_É°2_10092390
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3512,7 +4340,7 @@ TraditionalMat REG_4-2_11272191
 	TextureList
 	{
 		1
-		REG_4-2_11272191.png
+		REG_É°2_10092390.png
 	}
 	TextureAddressMode
 	{
@@ -3538,7 +4366,7 @@ TraditionalMat REG_4-2_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-3_11272191
+TraditionalMat REG_É°2_11730841
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3548,7 +4376,7 @@ TraditionalMat REG_4-3_11272191
 	TextureList
 	{
 		1
-		REG_4-3_11272191.png
+		REG_É°2_11730841.png
 	}
 	TextureAddressMode
 	{
@@ -3574,7 +4402,7 @@ TraditionalMat REG_4-3_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-4_11272191
+TraditionalMat REG_É°2_13434841
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3584,7 +4412,7 @@ TraditionalMat REG_4-4_11272191
 	TextureList
 	{
 		1
-		REG_4-4_11272191.png
+		REG_É°2_13434841.png
 	}
 	TextureAddressMode
 	{
@@ -3610,7 +4438,7 @@ TraditionalMat REG_4-4_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-5_11272191
+TraditionalMat REG_É°2_6736998
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3620,7 +4448,7 @@ TraditionalMat REG_4-5_11272191
 	TextureList
 	{
 		1
-		REG_4-5_11272191.png
+		REG_É°2_6736998.png
 	}
 	TextureAddressMode
 	{
@@ -3646,7 +4474,7 @@ TraditionalMat REG_4-5_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_4-6_11272191
+TraditionalMat REG_É°ÀùÖÊÕ³ÍÁ2_15073100
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3656,7 +4484,7 @@ TraditionalMat REG_4-6_11272191
 	TextureList
 	{
 		1
-		REG_4-6_11272191.png
+		REG_É°ÀùÖÊÕ³ÍÁ2_15073100.png
 	}
 	TextureAddressMode
 	{
@@ -3682,7 +4510,7 @@ TraditionalMat REG_4-6_11272191
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_5-1_11730943
+TraditionalMat REG_É°ÀùÖÊÕ³ÍÁ3_11272191
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3692,7 +4520,7 @@ TraditionalMat REG_5-1_11730943
 	TextureList
 	{
 		1
-		REG_5-1_11730943.png
+		REG_É°ÀùÖÊÕ³ÍÁ3_11272191.png
 	}
 	TextureAddressMode
 	{
@@ -3718,7 +4546,7 @@ TraditionalMat REG_5-1_11730943
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_5-2_11730943
+TraditionalMat REG_É°ÀùÖÊÕ³ÍÁ_11730943
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3728,7 +4556,7 @@ TraditionalMat REG_5-2_11730943
 	TextureList
 	{
 		1
-		REG_5-2_11730943.png
+		REG_É°ÀùÖÊÕ³ÍÁ_11730943.png
 	}
 	TextureAddressMode
 	{
@@ -3754,7 +4582,7 @@ TraditionalMat REG_5-2_11730943
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_6-1_6750207
+TraditionalMat REG_Ë®Ãæ_16754176
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3764,7 +4592,7 @@ TraditionalMat REG_6-1_6750207
 	TextureList
 	{
 		1
-		REG_6-1_6750207.png
+		REG_Ë®Ãæ_16754176.png
 	}
 	TextureAddressMode
 	{
@@ -3790,7 +4618,7 @@ TraditionalMat REG_6-1_6750207
 		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
 	}
 }
-TraditionalMat REG_6-2_15073100
+TraditionalMat REG_ÓÙÄà-·½ÐÎ_12779519
 {
 	ambient 1.0 1.0 1.0 0.0
 	diffuse 1.0 1.0 1.0 0.0
@@ -3800,1267 +4628,7 @@ TraditionalMat REG_6-2_15073100
 	TextureList
 	{
 		1
-		REG_6-2_15073100.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_6-3_6750207
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_6-3_6750207.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_7-1_11272191
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_7-1_11272191.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-1_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-1_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-2_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-2_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-3_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-3_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-4_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-4_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-5_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-5_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_8-6_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_8-6_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_9-1_1703935
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_9-1_1703935.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_9-2_1703935
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_9-2_1703935.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_G0_16777215
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_G0_16777215.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_G20_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_G20_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_G_239
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_G_239.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J12_16777138
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J12_16777138.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J13_14640896
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J13_14640896.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J14_10092390
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J14_10092390.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J15_16753615
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J15_16753615.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J16_16764159
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J16_16764159.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J17_255
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J17_255.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J18_13290239
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J18_13290239.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J19_25535
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J19_25535.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_J2_12779519
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_J2_12779519.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q1-1_11534335
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q1-1_11534335.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q10_9957887
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q10_9957887.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q11_6750207
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q11_6750207.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q1_14548991
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q1_14548991.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q2_11730943
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q2_11730943.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q3_11730943
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q3_11730943.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q5_11730943
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q5_11730943.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q6-Q8_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q6-Q8_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_Q9_1703935
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_Q9_1703935.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_T12-1_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_T12-1_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_TS13-1_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_TS13-1_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_TS_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_TS_8453119.png
-	}
-	TextureAddressMode
-	{
-		1
-		REPEAT
-	}
-	Cull
-	{
-		cullFace 1
-		cullFaceMode BACK
-	}
-	AlphaTest
-	{
-		alphaTest 0
-		alphaTestValue 0.0
-		comparisonFunc LESS
-	}
-	AlphaBlend
-	{
-		alphaBlend 0
-		alphaBlendCol 0.5 0.5 0.5 0.5
-		sourceAlphaBlendMode SRC_ALPHA
-		destAlphaBlendMode ONE_MINUS_SRC_ALPHA
-	}
-}
-TraditionalMat REG_T_8453119
-{
-	ambient 1.0 1.0 1.0 0.0
-	diffuse 1.0 1.0 1.0 0.0
-	specular 0.0 0.0 0.0 0.0
-	emssion 0.0 0.0 0.0 0.0
-	shininess 0.0
-	TextureList
-	{
-		1
-		REG_T_8453119.png
+		REG_ÓÙÄà-·½ÐÎ_12779519.png
 	}
 	TextureAddressMode
 	{
